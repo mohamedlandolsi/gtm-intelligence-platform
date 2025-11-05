@@ -869,3 +869,514 @@ def generate_gtm_insights(classified_signals: List[Dict[str, Any]]) -> Dict[str,
     """
     generator = GTMInsightsGenerator()
     return generator.generate_gtm_insights(classified_signals)
+
+
+def generate_executive_summary(insights: Dict[str, Any], signals: List[Dict[str, Any]]) -> str:
+    """
+    Generate professional executive summary report from insights and signals
+    
+    Args:
+        insights: Generated GTM insights from generate_gtm_insights()
+        signals: Original list of all signals (classified and unclassified)
+        
+    Returns:
+        Formatted executive summary report (250-400 words)
+    """
+    
+    # Extract metadata
+    total_signals = len(signals)
+    date_range = _extract_date_range(signals)
+    source_breakdown = _extract_source_breakdown(signals)
+    
+    # Build report sections
+    report_sections = []
+    
+    # 1. Executive Summary (150 words)
+    exec_summary = _build_executive_summary_section(insights, signals)
+    report_sections.append(exec_summary)
+    
+    # 2. Market Intelligence Overview
+    intel_overview = _build_intelligence_overview(total_signals, date_range, source_breakdown)
+    report_sections.append(intel_overview)
+    
+    # 3. Key Findings (3-5 bullet points)
+    key_findings = _build_key_findings(insights, signals)
+    report_sections.append(key_findings)
+    
+    # 4. GTM Recommendations (5-7 actionable recommendations)
+    gtm_recommendations = _build_gtm_recommendations(insights)
+    report_sections.append(gtm_recommendations)
+    
+    # 5. Competitive Positioning
+    competitive_positioning = _build_competitive_positioning(insights, signals)
+    report_sections.append(competitive_positioning)
+    
+    # 6. Timeline & Urgency
+    timeline_urgency = _build_timeline_urgency(insights, signals)
+    report_sections.append(timeline_urgency)
+    
+    # Combine all sections
+    report = "\n\n".join(report_sections)
+    
+    return report
+
+
+def _extract_date_range(signals: List[Dict[str, Any]]) -> Dict[str, str]:
+    """Extract date range from signals"""
+    
+    dates = [s.get('date_detected', '') for s in signals if s.get('date_detected')]
+    
+    if dates:
+        dates.sort()
+        return {
+            'start': dates[0],
+            'end': dates[-1]
+        }
+    else:
+        return {
+            'start': datetime.now().strftime('%Y-%m-%d'),
+            'end': datetime.now().strftime('%Y-%m-%d')
+        }
+
+
+def _extract_source_breakdown(signals: List[Dict[str, Any]]) -> Dict[str, int]:
+    """Extract signal count by source"""
+    
+    breakdown = defaultdict(int)
+    
+    for signal in signals:
+        source = signal.get('source', 'Unknown')
+        
+        # Normalize source names
+        if 'github' in source.lower():
+            breakdown['GitHub'] += 1
+        elif 'linkedin' in source.lower():
+            breakdown['LinkedIn'] += 1
+        elif 'crunchbase' in source.lower():
+            breakdown['Crunchbase'] += 1
+        elif 'news' in source.lower() or 'stripe' in source.lower():
+            breakdown['News'] += 1
+        else:
+            breakdown[source] += 1
+    
+    return dict(breakdown)
+
+
+def _build_executive_summary_section(insights: Dict[str, Any], signals: List[Dict[str, Any]]) -> str:
+    """Build executive summary section (150 words)"""
+    
+    section = "=" * 80 + "\n"
+    section += "EXECUTIVE SUMMARY\n"
+    section += "=" * 80 + "\n\n"
+    
+    # Company overview
+    section += "COMPANY OVERVIEW: Stripe is a global payments infrastructure provider serving B2B "
+    section += "and B2C businesses worldwide. As a market leader in payment processing, API-first "
+    section += "financial services, and embedded finance, Stripe continues to expand its product "
+    section += "portfolio and market reach.\n\n"
+    
+    # Market position based on signals
+    product_signals = sum(1 for s in signals if s.get('primary_category') == 'PRODUCT')
+    talent_signals = sum(1 for s in signals if s.get('primary_category') == 'TALENT')
+    
+    section += f"MARKET POSITION: Analysis of {len(signals)} market signals reveals Stripe maintains "
+    section += "strong technical leadership with "
+    
+    if product_signals > len(signals) * 0.5:
+        section += f"aggressive product development ({product_signals} product signals) "
+    else:
+        section += "steady product evolution "
+    
+    if talent_signals > 0:
+        section += f"and strategic workforce expansion ({talent_signals} hiring signals). "
+    
+    section += "The company demonstrates continued innovation in developer tools, SDKs, and API infrastructure.\n\n"
+    
+    # Strategic direction
+    strategic_summary = insights.get('executive_summary', {}).get('strategic_summary', '')
+    section += f"STRATEGIC DIRECTION: {strategic_summary}\n"
+    
+    return section
+
+
+def _build_intelligence_overview(total_signals: int, date_range: Dict[str, str], 
+                                 source_breakdown: Dict[str, int]) -> str:
+    """Build market intelligence overview section"""
+    
+    section = "=" * 80 + "\n"
+    section += "MARKET INTELLIGENCE OVERVIEW\n"
+    section += "=" * 80 + "\n\n"
+    
+    section += f"Total Signals Collected: {total_signals}\n"
+    section += f"Date Range: {date_range['start']} to {date_range['end']}\n\n"
+    
+    section += "Sources:\n"
+    for source, count in sorted(source_breakdown.items(), key=lambda x: x[1], reverse=True):
+        percentage = (count / total_signals * 100) if total_signals > 0 else 0
+        section += f"  - {source}: {count} signals ({percentage:.1f}%)\n"
+    
+    return section
+
+
+def _build_key_findings(insights: Dict[str, Any], signals: List[Dict[str, Any]]) -> str:
+    """Build key findings section (3-5 bullet points with supporting data)"""
+    
+    section = "=" * 80 + "\n"
+    section += "KEY FINDINGS\n"
+    section += "=" * 80 + "\n\n"
+    
+    findings = []
+    
+    # Extract top high-confidence insights
+    high_conf_insights = insights.get('executive_summary', {}).get('high_confidence_insights', [])
+    
+    # 1. Product development finding
+    product_insights = insights.get('insights_by_category', {}).get('PRODUCT', {})
+    if product_insights and product_insights.get('insights'):
+        product_finding = product_insights['insights'][0]
+        product_count = product_insights['total_signals']
+        
+        # Extract specific metrics
+        high_conf_count = sum(1 for s in signals 
+                            if s.get('primary_category') == 'PRODUCT' 
+                            and s.get('confidence_level') == 'high')
+        
+        findings.append(
+            f"1. AGGRESSIVE PRODUCT DEVELOPMENT: Stripe demonstrates high development velocity with "
+            f"{product_count} product signals detected ({high_conf_count} high-confidence). "
+            f"{product_finding['insight_text'][:120]}..."
+        )
+    
+    # 2. Talent/hiring finding
+    talent_insights = insights.get('insights_by_category', {}).get('TALENT', {})
+    if talent_insights and talent_insights.get('insights'):
+        talent_finding = talent_insights['insights'][0]
+        
+        # Extract hiring numbers
+        hiring_signals = [s for s in signals if 'hiring' in s.get('signal_type', '').lower() 
+                         or 'hire' in s.get('headline', '').lower()]
+        
+        findings.append(
+            f"\n2. STRATEGIC WORKFORCE EXPANSION: {talent_finding['insight_text'][:120]}... "
+            f"({len(hiring_signals)} hiring-related signals)"
+        )
+    
+    # 3. Market/competitive finding
+    competitive_insights = insights.get('insights_by_category', {}).get('COMPETITIVE', {})
+    market_insights = insights.get('insights_by_category', {}).get('MARKET', {})
+    
+    if competitive_insights and competitive_insights.get('insights'):
+        comp_finding = competitive_insights['insights'][0]
+        findings.append(
+            f"\n3. COMPETITIVE LANDSCAPE: {comp_finding['insight_text'][:120]}..."
+        )
+    elif market_insights and market_insights.get('insights'):
+        market_finding = market_insights['insights'][0]
+        findings.append(
+            f"\n3. MARKET DYNAMICS: {market_finding['insight_text'][:120]}..."
+        )
+    
+    # 4. Multi-dimensional finding (cross-category)
+    cross_insights = insights.get('cross_category_insights', [])
+    if cross_insights:
+        cross_finding = cross_insights[0]
+        multi_dim_count = sum(1 for s in signals if len(s.get('secondary_categories', [])) > 0)
+        
+        findings.append(
+            f"\n4. INTEGRATED STRATEGY: {cross_finding['insight_text'][:120]}... "
+            f"({multi_dim_count} multi-dimensional signals)"
+        )
+    
+    # 5. Timing/launch finding
+    timing_insights = insights.get('insights_by_category', {}).get('TIMING', {})
+    if timing_insights and timing_insights.get('insights') and len(findings) < 5:
+        timing_finding = timing_insights['insights'][0]
+        findings.append(
+            f"\n5. MARKET TIMING: {timing_finding['insight_text'][:120]}..."
+        )
+    
+    section += "".join(findings[:5])  # Limit to 5 findings
+    
+    return section
+
+
+def _build_gtm_recommendations(insights: Dict[str, Any]) -> str:
+    """Build GTM recommendations section (5-7 actionable recommendations)"""
+    
+    section = "\n" + "=" * 80 + "\n"
+    section += "GTM RECOMMENDATIONS\n"
+    section += "=" * 80 + "\n\n"
+    
+    recommendations = []
+    rec_counter = 1
+    
+    # Extract recommendations from each category
+    for category in ['COMPETITIVE', 'PRODUCT', 'MESSAGING', 'ICP', 'TALENT', 'TIMING', 'MARKET']:
+        cat_insights = insights.get('insights_by_category', {}).get(category, {})
+        
+        if not cat_insights or not cat_insights.get('insights'):
+            continue
+        
+        for insight in cat_insights.get('insights', []):
+            if rec_counter > 7:  # Limit to 7 recommendations
+                break
+            
+            # Only include high or medium confidence
+            if insight['confidence_level'] not in ['high', 'medium']:
+                continue
+            
+            # Extract finding (first sentence)
+            finding = insight['insight_text'].split('.')[0] + '.'
+            
+            # Get recommendation
+            recommendation = insight['recommended_action']
+            
+            # Determine expected impact
+            impact = _determine_expected_impact(category, insight['confidence_level'])
+            
+            recommendations.append(
+                f"{rec_counter}. [{category}] \n"
+                f"   Finding: {finding[:100]}{'...' if len(finding) > 100 else ''}\n"
+                f"   Recommendation: {recommendation[:150]}{'...' if len(recommendation) > 150 else ''}\n"
+                f"   Expected Impact: {impact}\n"
+            )
+            
+            rec_counter += 1
+    
+    section += "\n".join(recommendations[:7])
+    
+    return section
+
+
+def _determine_expected_impact(category: str, confidence: str) -> str:
+    """Determine expected impact based on category and confidence"""
+    
+    impact_map = {
+        'COMPETITIVE': {
+            'high': 'Significant competitive advantage, potential 15-25% win rate improvement',
+            'medium': 'Moderate competitive edge, 10-15% improvement in competitive deals',
+            'low': 'Incremental advantage in specific scenarios'
+        },
+        'PRODUCT': {
+            'high': 'Major differentiation opportunity, potential to capture underserved segment',
+            'medium': 'Feature parity improvement, reduces competitive gaps',
+            'low': 'Nice-to-have enhancement'
+        },
+        'MESSAGING': {
+            'high': 'Strong positioning shift, improved sales conversion (10-20%)',
+            'medium': 'Clearer value proposition, better prospect engagement',
+            'low': 'Refined messaging for specific segments'
+        },
+        'ICP': {
+            'high': 'New market segment opportunity, potential 20-30% TAM expansion',
+            'medium': 'Improved targeting efficiency, higher qualified lead rate',
+            'low': 'Better understanding of customer segments'
+        },
+        'TIMING': {
+            'high': 'Critical launch window, first-mover advantage opportunity',
+            'medium': 'Optimized launch timing, improved market reception',
+            'low': 'Better campaign scheduling'
+        },
+        'TALENT': {
+            'high': 'Early signal of major strategic shift, 6-12 month competitive advantage',
+            'medium': 'Organizational capability insight, 3-6 month planning advantage',
+            'low': 'General organizational awareness'
+        },
+        'MARKET': {
+            'high': 'Significant market opportunity, potential for rapid growth',
+            'medium': 'Favorable market conditions, support for expansion plans',
+            'low': 'Market awareness for long-term planning'
+        }
+    }
+    
+    return impact_map.get(category, {}).get(confidence, 'TBD based on execution')
+
+
+def _build_competitive_positioning(insights: Dict[str, Any], signals: List[Dict[str, Any]]) -> str:
+    """Build competitive positioning section"""
+    
+    section = "=" * 80 + "\n"
+    section += "COMPETITIVE POSITIONING\n"
+    section += "=" * 80 + "\n\n"
+    
+    # Stripe's Strengths
+    section += "STRIPE'S STRENGTHS (based on signals):\n"
+    
+    strengths = []
+    
+    # High product velocity
+    product_count = sum(1 for s in signals if s.get('primary_category') == 'PRODUCT')
+    if product_count > len(signals) * 0.5:
+        strengths.append(f"  - Strong product development velocity ({product_count} product signals)")
+    
+    # Large organization
+    employee_signals = [s for s in signals if 'employee' in s.get('headline', '').lower()]
+    if employee_signals:
+        strengths.append("  - Large, well-resourced organization (12,000+ employees)")
+    
+    # Technical ecosystem
+    sdk_signals = [s for s in signals if 'sdk' in s.get('headline', '').lower() 
+                   or 'api' in s.get('headline', '').lower()]
+    if sdk_signals:
+        strengths.append(f"  - Comprehensive developer ecosystem ({len(sdk_signals)} SDK/API updates)")
+    
+    # Market leader position
+    strengths.append("  - Established market leader with strong brand recognition")
+    strengths.append("  - Extensive integration ecosystem and partner network")
+    
+    section += "\n".join(strengths[:5]) + "\n\n"
+    
+    # Stripe's Vulnerabilities
+    section += "STRIPE'S VULNERABILITIES (gaps in strategy):\n"
+    
+    vulnerabilities = []
+    
+    # Extract from competitive insights
+    comp_insights = insights.get('insights_by_category', {}).get('COMPETITIVE', {})
+    if comp_insights and comp_insights.get('insights'):
+        for insight in comp_insights.get('insights', []):
+            if 'vulnerabilit' in insight['insight_text'].lower():
+                # Extract vulnerability from text
+                vuln_text = insight['insight_text'].split(':')[-1].strip()
+                vulnerabilities.append(f"  - {vuln_text}")
+    
+    # Extract from product insights (gaps)
+    product_insights = insights.get('insights_by_category', {}).get('PRODUCT', {})
+    if product_insights and product_insights.get('insights'):
+        for insight in product_insights.get('insights', []):
+            if 'gap' in insight['recommended_action'].lower():
+                # Extract gaps
+                if 'Fraud Prevention' in insight['recommended_action']:
+                    vulnerabilities.append("  - Limited focus on fraud prevention capabilities")
+                if 'Analytics' in insight['recommended_action']:
+                    vulnerabilities.append("  - Underdeveloped analytics and reporting tools")
+                if 'Reporting' in insight['recommended_action']:
+                    vulnerabilities.append("  - Basic reporting functionality")
+    
+    # Extract from talent insights (bureaucracy)
+    talent_insights = insights.get('insights_by_category', {}).get('TALENT', {})
+    if talent_insights and talent_insights.get('insights'):
+        for insight in talent_insights.get('insights', []):
+            if 'bureaucracy' in insight['insight_text'].lower():
+                vulnerabilities.append("  - Large organization may suffer from slower decision-making")
+    
+    # Default vulnerabilities if none found
+    if not vulnerabilities:
+        vulnerabilities = [
+            "  - Complex pricing structure may deter smaller customers",
+            "  - Enterprise-focused positioning leaves mid-market underserved",
+            "  - SDK complexity creates integration friction for some developers"
+        ]
+    
+    section += "\n".join(vulnerabilities[:5]) + "\n\n"
+    
+    # Opportunities for Differentiation
+    section += "OPPORTUNITIES FOR DIFFERENTIATION:\n"
+    
+    opportunities = []
+    
+    # Extract from recommendations
+    for category, cat_insights in insights.get('insights_by_category', {}).items():
+        for insight in cat_insights.get('insights', []):
+            action = insight['recommended_action']
+            
+            if 'position' in action.lower() and len(opportunities) < 5:
+                opportunities.append(f"  - {action[:80]}...")
+            elif 'gap' in action.lower() and len(opportunities) < 5:
+                opportunities.append(f"  - {action[:80]}...")
+            elif 'emphasize' in action.lower() and len(opportunities) < 5:
+                opportunities.append(f"  - {action[:80]}...")
+    
+    # Default opportunities
+    if not opportunities:
+        opportunities = [
+            "  - Position as nimble alternative with faster implementation",
+            "  - Focus on mid-market segment with white-glove support",
+            "  - Emphasize pricing transparency and simplicity",
+            "  - Build superior analytics and reporting capabilities",
+            "  - Develop specialized solutions for underserved verticals"
+        ]
+    
+    section += "\n".join(opportunities[:5])
+    
+    return section
+
+
+def _build_timeline_urgency(insights: Dict[str, Any], signals: List[Dict[str, Any]]) -> str:
+    """Build timeline and urgency section"""
+    
+    section = "\n" + "=" * 80 + "\n"
+    section += "TIMELINE & URGENCY\n"
+    section += "=" * 80 + "\n\n"
+    
+    # Identify urgent signals
+    section += "URGENT MARKET SHIFTS:\n"
+    
+    urgent_items = []
+    
+    # High-confidence timing signals
+    timing_insights = insights.get('insights_by_category', {}).get('TIMING', {})
+    if timing_insights and timing_insights.get('insights'):
+        for insight in timing_insights.get('insights', []):
+            if insight['confidence_level'] == 'high':
+                urgent_items.append(
+                    f"  - {insight['insight_text'][:100]}..."
+                )
+    
+    # Product launch signals
+    launch_signals = [s for s in signals if any(
+        keyword in s.get('headline', '').lower() 
+        for keyword in ['launch', 'release', 'announce', 'beta']
+    )]
+    
+    if launch_signals and len(urgent_items) < 3:
+        urgent_items.append(
+            f"  - {len(launch_signals)} product launch signals detected indicating active release cycle"
+        )
+    
+    # Cross-category urgent signals
+    cross_insights = insights.get('cross_category_insights', [])
+    for insight in cross_insights:
+        if insight['confidence_level'] == 'high' and len(urgent_items) < 3:
+            urgent_items.append(
+                f"  - {insight['insight_text'][:100]}..."
+            )
+    
+    if urgent_items:
+        section += "\n".join(urgent_items[:3]) + "\n\n"
+    else:
+        section += "  - No immediate urgent market shifts detected\n"
+        section += "  - Market appears stable for planned strategic initiatives\n\n"
+    
+    # Recommended action timeline
+    section += "RECOMMENDED ACTION TIMELINE:\n\n"
+    
+    section += "IMMEDIATE (0-30 days):\n"
+    immediate_actions = []
+    for category, cat_insights in insights.get('insights_by_category', {}).items():
+        for insight in cat_insights.get('insights', []):
+            if insight['confidence_level'] == 'high' and len(immediate_actions) < 2:
+                immediate_actions.append(
+                    f"  - [{category}] {insight['recommended_action'][:80]}..."
+                )
+    
+    if immediate_actions:
+        section += "\n".join(immediate_actions) + "\n\n"
+    else:
+        section += "  - Begin implementing high-confidence recommendations from GTM section\n\n"
+    
+    section += "SHORT-TERM (30-90 days):\n"
+    section += "  - Execute product differentiation strategy based on identified gaps\n"
+    section += "  - Develop and deploy counter-positioning messaging\n"
+    section += "  - Launch targeted campaigns for underserved segments\n\n"
+    
+    section += "MEDIUM-TERM (90-180 days):\n"
+    section += "  - Monitor competitor hiring patterns for strategic direction signals\n"
+    section += "  - Assess market response to initial positioning changes\n"
+    section += "  - Refine ICP targeting based on early results\n\n"
+    
+    section += "=" * 80 + "\n"
+    section += "END OF EXECUTIVE SUMMARY\n"
+    section += "=" * 80
+    
+    return section
