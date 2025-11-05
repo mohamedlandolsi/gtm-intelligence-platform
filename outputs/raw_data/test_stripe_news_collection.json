@@ -1,0 +1,228 @@
+{
+  "api_news": [
+    {
+      "headline": "Stripe Expands Payment Infrastructure in Southeast Asia",
+      "description": "Stripe announces new partnerships with local banks in Singapore, Malaysia, and Indonesia to enhance payment processing capabilities.",
+      "published_date": "2025-10-19",
+      "source_url": "https://techcrunch.com/stripe-asia-expansion",
+      "source_name": "TechCrunch",
+      "category": "news",
+      "search_query": "Stripe fintech",
+      "collected_at": "2025-11-05T19:06:19.156030"
+    },
+    {
+      "headline": "Stripe Raises Additional $250M in Extended Series H",
+      "description": "The fintech giant secures more funding as it continues to invest in AI-powered fraud detection and global expansion.",
+      "published_date": "2025-10-03",
+      "source_url": "https://fortune.com/stripe-funding-series-h",
+      "source_name": "Fortune",
+      "category": "news",
+      "search_query": "Stripe funding",
+      "collected_at": "2025-11-05T19:06:19.156037"
+    },
+    {
+      "headline": "Stripe Partners with Major E-commerce Platform Shopify",
+      "description": "New integration promises faster checkout and better conversion rates for online merchants worldwide.",
+      "published_date": "2025-09-26",
+      "source_url": "https://reuters.com/stripe-shopify-partnership",
+      "source_name": "Reuters",
+      "category": "news",
+      "search_query": "Stripe partnerships",
+      "collected_at": "2025-11-05T19:06:19.156042"
+    },
+    {
+      "headline": "Stripe Launches AI-Powered Revenue Recognition Tool",
+      "description": "New product helps subscription businesses automate complex revenue recognition with machine learning.",
+      "published_date": "2025-09-21",
+      "source_url": "https://bloomberg.com/stripe-revenue-recognition",
+      "source_name": "Bloomberg",
+      "category": "news",
+      "search_query": "Stripe product launch",
+      "collected_at": "2025-11-05T19:06:19.156047"
+    },
+    {
+      "headline": "How Stripe is Winning the B2B Payment Processing War",
+      "description": "Analysis of Stripe's strategy to dominate the enterprise payment infrastructure market.",
+      "published_date": "2025-09-11",
+      "source_url": "https://wsj.com/stripe-b2b-strategy",
+      "source_name": "Wall Street Journal",
+      "category": "news",
+      "search_query": "Stripe fintech",
+      "collected_at": "2025-11-05T19:06:19.156052"
+    }
+  ],
+  "company_announcements": [
+    {
+      "headline": "Product",
+      "description": "Last week, Google announced that Android apps selling digital goods to US customers can now process in-app payments using third-party payment providers. Here’s a closer look at how we can help app dev",
+      "published_date": "2025-11-04",
+      "source_url": "https://stripe.com/blog/product",
+      "source_name": "Stripe Blog",
+      "category": "company_announcement",
+      "type": "blog_post",
+      "collected_at": "2025-11-05T19:06:20.262253"
+    },
+    {
+      "headline": "Product",
+      "description": "As businesses expand globally, stablecoins can help them reach a broader international audience more cost-effectively. Now we’re extending these benefits to subscription-based businesses by launching ",
+      "published_date": "2025-10-14",
+      "source_url": "https://stripe.com/blog/product",
+      "source_name": "Stripe Blog",
+      "category": "company_announcement",
+      "type": "blog_post",
+      "collected_at": "2025-11-05T19:06:20.262411"
+    },
+    {
+      "headline": "Product",
+      "description": "Last week, we shared how we worked with OpenAI to develop the Agentic Commerce Protocol (ACP), a new specification to help AI platforms embed commerce into their applications and businesses sell throu",
+      "published_date": "2025-10-07",
+      "source_url": "https://stripe.com/blog/product",
+      "source_name": "Stripe Blog",
+      "category": "company_announcement",
+      "type": "blog_post",
+      "collected_at": "2025-11-05T19:06:20.262577"
+    },
+    {
+      "headline": "Product",
+      "description": "We announced new agentic commerce capabilities, modular infrastructure for all parts of the crypto stack, including the ability for you to collect subscription payments using stablecoins, and a lot mo",
+      "published_date": "2025-09-30",
+      "source_url": "https://stripe.com/blog/product",
+      "source_name": "Stripe Blog",
+      "category": "company_announcement",
+      "type": "blog_post",
+      "collected_at": "2025-11-05T19:06:20.262703"
+    },
+    {
+      "headline": "Introducing Tempo, the payments-first blockchain",
+      "description": "Tempo, a Layer 1 blockchain incubated by Stripe and crypto VC firm Paradigm, is purpose-built for scalable, low-cost stablecoin payments.",
+      "published_date": "2025-09-04",
+      "source_url": "https://tempo.xyz/launch-announcement",
+      "source_name": "Stripe Blog",
+      "category": "company_announcement",
+      "type": "blog_post",
+      "collected_at": "2025-11-05T19:06:20.268449"
+    },
+    {
+      "headline": "Product",
+      "description": "Open Issuance, from Bridge, is a new platform that allows any business to launch and manage its own stablecoin. With its own stablecoin, a business can control its product experience, mint and burn wi",
+      "published_date": "2025-09-30",
+      "source_url": "https://stripe.com/blog/product",
+      "source_name": "Stripe Blog",
+      "category": "company_announcement",
+      "type": "blog_post",
+      "collected_at": "2025-11-05T19:06:20.270854"
+    },
+    {
+      "headline": "Product",
+      "description": "Today, we announced that Stripe is powering OpenAI’s newly launched commerce experience: Instant Checkout in ChatGPT. It is powered by the Agentic Commerce Protocol, a new open standard developed by S",
+      "published_date": "2025-09-29",
+      "source_url": "https://stripe.com/blog/product",
+      "source_name": "Stripe Blog",
+      "category": "company_announcement",
+      "type": "blog_post",
+      "collected_at": "2025-11-05T19:06:20.271008"
+    },
+    {
+      "headline": "Industry",
+      "description": "Our recent survey of 2,000+ global business leaders showed that the fastest-growing companies are approaching pricing differently than their peers. Here are some of the strategies behind their success",
+      "published_date": "2025-09-24",
+      "source_url": "https://stripe.com/blog/industry",
+      "source_name": "Stripe Blog",
+      "category": "company_announcement",
+      "type": "blog_post",
+      "collected_at": "2025-11-05T19:06:20.271135"
+    },
+    {
+      "headline": "Engineering",
+      "description": "Among global business leaders surveyed, 84% agree that adapting pricing quickly will be a key competitive advantage. Our new real-time analytics system for Stripe Billing helps them spot customer tren",
+      "published_date": "2025-09-16",
+      "source_url": "https://stripe.com/blog/engineering",
+      "source_name": "Stripe Blog",
+      "category": "company_announcement",
+      "type": "blog_post",
+      "collected_at": "2025-11-05T19:06:20.271258"
+    },
+    {
+      "headline": "Industry",
+      "description": "While businesses are rapidly building AI products, monetization remains a challenge. In this post, we share a framework for building a successful pricing strategy with key decision points on charge me",
+      "published_date": "2025-09-11",
+      "source_url": "https://stripe.com/blog/industry",
+      "source_name": "Stripe Blog",
+      "category": "company_announcement",
+      "type": "blog_post",
+      "collected_at": "2025-11-05T19:06:20.271492"
+    },
+    {
+      "headline": "Industry",
+      "description": "Our analysis showed that even with very high two-factor authentication trigger rates—which traditionally add friction to the checkout flow—France, the UK, and Japan still maintain high conversion rate",
+      "published_date": "2025-08-26",
+      "source_url": "https://stripe.com/blog/industry",
+      "source_name": "Stripe Blog",
+      "category": "company_announcement",
+      "type": "blog_post",
+      "collected_at": "2025-11-05T19:06:20.271697"
+    },
+    {
+      "headline": "Press and media inquiries:",
+      "description": "",
+      "published_date": null,
+      "source_url": "mailto:media@stripe.com",
+      "source_name": "Stripe Newsroom",
+      "category": "company_announcement",
+      "type": "press_release",
+      "collected_at": "2025-11-05T19:06:21.821163"
+    }
+  ],
+  "industry_news": [
+    {
+      "headline": "The Future of Payment Processing: 2025 Trends Report",
+      "description": "Analysis of emerging trends in digital payments including real-time processing and embedded finance.",
+      "published_date": "2025-10-26",
+      "source_url": "https://fintechmagazine.com/payment-trends-2025",
+      "source_name": "FinTech Magazine",
+      "category": "industry_trend",
+      "collected_at": "2025-11-05T19:06:21.823399"
+    },
+    {
+      "headline": "B2B Fintech Market Expected to Reach $500B by 2026",
+      "description": "Research shows rapid growth in business payment solutions as enterprises modernize their infrastructure.",
+      "published_date": "2025-10-21",
+      "source_url": "https://marketresearch.com/b2b-fintech-growth",
+      "source_name": "Market Research Today",
+      "category": "industry_trend",
+      "collected_at": "2025-11-05T19:06:21.823408"
+    },
+    {
+      "headline": "How APIs are Transforming the Payment Infrastructure Landscape",
+      "description": "Deep dive into how API-first platforms are enabling innovation in financial services.",
+      "published_date": "2025-10-14",
+      "source_url": "https://apieconomy.com/payment-apis",
+      "source_name": "API Economy",
+      "category": "industry_trend",
+      "collected_at": "2025-11-05T19:06:21.823414"
+    },
+    {
+      "headline": "Digital Payments Innovation: What's Next After Mobile Wallets",
+      "description": "Exploring emerging technologies like biometric payments and blockchain integration.",
+      "published_date": "2025-10-08",
+      "source_url": "https://digitalbanking.com/innovation-report",
+      "source_name": "Digital Banking News",
+      "category": "industry_trend",
+      "collected_at": "2025-11-05T19:06:21.823420"
+    },
+    {
+      "headline": "Why Fintech Platforms are Winning the Infrastructure Battle",
+      "description": "Analysis of how platform companies are displacing traditional payment processors.",
+      "published_date": "2025-09-26",
+      "source_url": "https://venturebeat.com/fintech-platforms",
+      "source_name": "VentureBeat",
+      "category": "industry_trend",
+      "collected_at": "2025-11-05T19:06:21.823426"
+    }
+  ],
+  "metadata": {
+    "collection_date": "2025-11-05T19:06:19.155906",
+    "months_back": 3,
+    "cutoff_date": "2025-08-07"
+  }
+}
