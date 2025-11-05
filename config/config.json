@@ -1,0 +1,68 @@
+{
+  "company": "Stripe",
+  "data_collection": {
+    "news_days_back": 30,
+    "github_search_limit": 30,
+    "enable_mock_data": true,
+    "sources": {
+      "news_api": {
+        "enabled": true,
+        "api_key_env": "NEWS_API_KEY"
+      },
+      "crunchbase": {
+        "enabled": true,
+        "api_key_env": "CRUNCHBASE_API_KEY"
+      },
+      "linkedin": {
+        "enabled": true,
+        "note": "Limited by LinkedIn API restrictions"
+      },
+      "github": {
+        "enabled": true,
+        "api_key_env": "GITHUB_TOKEN"
+      },
+      "company_website": {
+        "enabled": true,
+        "blog_url": "https://stripe.com/blog",
+        "press_url": "https://stripe.com/newsroom",
+        "changelog_url": "https://stripe.com/docs/upgrades"
+      }
+    }
+  },
+  "processing": {
+    "min_relevance_score": 0.3,
+    "high_priority_threshold": 0.7,
+    "sentiment_analysis": true,
+    "auto_categorization": true
+  },
+  "output": {
+    "generate_csv": true,
+    "generate_json": true,
+    "generate_reports": true,
+    "generate_recommendations": true,
+    "formats": ["txt", "json", "csv"]
+  },
+  "fintech_targets": [
+    {
+      "name": "Stripe",
+      "linkedin_id": "stripe",
+      "github_org": "stripe",
+      "blog_url": "https://stripe.com/blog",
+      "press_url": "https://stripe.com/newsroom"
+    },
+    {
+      "name": "Plaid",
+      "linkedin_id": "plaid",
+      "github_org": "plaid",
+      "blog_url": "https://plaid.com/blog",
+      "press_url": "https://plaid.com/news"
+    },
+    {
+      "name": "Brex",
+      "linkedin_id": "brex",
+      "github_org": "brexhq",
+      "blog_url": "https://www.brex.com/journal",
+      "press_url": "https://www.brex.com/press"
+    }
+  ]
+}

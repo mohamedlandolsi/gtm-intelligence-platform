@@ -1,0 +1,43 @@
+{
+  "executive_summary": "GTM Intelligence Summary for stripe\n\n\nGrowth Indicators:\n- 3 active job postings (3 GTM roles)\n",
+  "key_findings": [],
+  "priority_signals": [
+    {
+      "type": "product_announcement",
+      "title": "Product",
+      "date": "2025-10-14T00:00-07:00",
+      "url": "https://stripe.com/blog/product",
+      "content_type": "announcement"
+    },
+    {
+      "type": "product_announcement",
+      "title": "Introducing Tempo, the payments-first blockchain",
+      "date": "2025-09-04",
+      "url": "https://tempo.xyz/launch-announcement",
+      "content_type": "announcement"
+    },
+    {
+      "type": "product_announcement",
+      "title": "Introducing Stripe Reader S700",
+      "date": "2023-05-02",
+      "url": "https://stripe.com/terminal#hardware",
+      "content_type": "announcement"
+    },
+    {
+      "type": "product_announcement",
+      "title": "Product",
+      "date": "2025-09-30T00:00-07:00",
+      "url": "https://stripe.com/blog/product",
+      "content_type": "announcement"
+    },
+    {
+      "type": "product_announcement",
+      "title": "Product",
+      "date": "2025-09-29T00:00-06:00",
+      "url": "https://stripe.com/blog/product",
+      "content_type": "announcement"
+    }
+  ],
+  "action_items": [],
+  "generated_at": "2025-11-05T18:59:27.494935"
+}

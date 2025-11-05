@@ -1,0 +1,60 @@
+# GTM Intelligence Platform - Requirements
+# Python dependencies for fintech intelligence gathering
+
+# === Web Scraping ===
+beautifulsoup4>=4.12.0
+lxml>=4.9.0
+html5lib>=1.1
+
+# === HTTP Clients & API Calls ===
+requests>=2.31.0
+httpx>=0.25.0
+urllib3>=2.0.0
+
+# === Data Processing ===
+pandas>=2.1.0
+numpy>=1.26.0
+
+# === JSON & Data Handling ===
+jsonschema>=4.20.0
+python-dateutil>=2.8.0
+
+# === News Aggregation ===
+feedparser>=6.0.0
+newsapi-python>=0.2.7
+
+# === Environment & Configuration ===
+python-dotenv>=1.0.0
+
+# === Rate Limiting & Async ===
+ratelimit>=2.2.0
+aiohttp>=3.9.0
+
+# === Optional: Advanced Features ===
+# Uncomment if needed
+
+# Natural Language Processing
+# nltk==3.8.1
+# spacy==3.7.2
+# textblob==0.17.1
+
+# Data Visualization
+# matplotlib==3.8.2
+# seaborn==0.13.0
+# plotly==5.18.0
+
+# Database (if storing data)
+# sqlalchemy==2.0.23
+# psycopg2-binary==2.9.9
+
+# Excel export
+# openpyxl==3.1.2
+# xlsxwriter==3.1.9
+
+# Selenium for advanced web scraping
+# selenium==4.15.2
+# webdriver-manager==4.0.1
+
+# Advanced HTTP
+# requests-cache==1.1.1
+# httpx[http2]==0.25.0

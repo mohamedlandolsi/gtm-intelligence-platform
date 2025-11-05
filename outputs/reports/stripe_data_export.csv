@@ -1,0 +1,7 @@
+company,date,type,title,categories,source,url,relevance,sentiment
+Stripe,2025-10-14T00:00-07:00,product_announcement,Product,,,https://stripe.com/blog/product,,
+Stripe,2025-09-04,product_announcement,"Introducing Tempo, the payments-first blockchain",,,https://tempo.xyz/launch-announcement,,
+Stripe,2023-05-02,product_announcement,Introducing Stripe Reader S700,,,https://stripe.com/terminal#hardware,,
+Stripe,2025-09-30T00:00-07:00,product_announcement,Product,,,https://stripe.com/blog/product,,
+Stripe,2025-09-29T00:00-06:00,product_announcement,Product,,,https://stripe.com/blog/product,,
+Stripe,2025-11-05T18:59:21.601988,news,Stripe announces new payment feature,expansion,TechCrunch,https://example.com/article1,0.7,neutral

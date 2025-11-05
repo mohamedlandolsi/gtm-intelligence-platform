@@ -1,0 +1,226 @@
+{
+  "blog_posts": [
+    {
+      "title": "Product",
+      "url": "https://stripe.com/blog/product",
+      "description": "Last week, Google announced that Android apps selling digital goods to US customers can now process in-app payments using third-party payment providers. Here’s a closer look at how we can help app developers respond to this change.",
+      "published_date": "2025-11-04T00:00-08:00",
+      "source": "company_blog",
+      "collected_at": "2025-11-05T18:59:24.175358"
+    },
+    {
+      "title": "Product",
+      "url": "https://stripe.com/blog/product",
+      "description": "As businesses expand globally, stablecoins can help them reach a broader international audience more cost-effectively. Now we’re extending these benefits to subscription-based businesses by launching recurring payments with stablecoins.",
+      "published_date": "2025-10-14T00:00-07:00",
+      "source": "company_blog",
+      "collected_at": "2025-11-05T18:59:24.175536"
+    },
+    {
+      "title": "Product",
+      "url": "https://stripe.com/blog/product",
+      "description": "Last week, we shared how we worked with OpenAI to develop the Agentic Commerce Protocol (ACP), a new specification to help AI platforms embed commerce into their applications and businesses sell through agentic channels without giving up trust or control. ACP is just the beginning. Here are some of ",
+      "published_date": "2025-10-07T00:00-07:00",
+      "source": "company_blog",
+      "collected_at": "2025-11-05T18:59:24.175691"
+    },
+    {
+      "title": "Product",
+      "url": "https://stripe.com/blog/product",
+      "description": "We announced new agentic commerce capabilities, modular infrastructure for all parts of the crypto stack, including the ability for you to collect subscription payments using stablecoins, and a lot more.",
+      "published_date": "2025-09-30T00:00-07:00",
+      "source": "company_blog",
+      "collected_at": "2025-11-05T18:59:24.175844"
+    },
+    {
+      "title": "Introducing Tempo, the payments-first blockchain",
+      "url": "https://tempo.xyz/launch-announcement",
+      "description": "Tempo, a Layer 1 blockchain incubated by Stripe and crypto VC firm Paradigm, is purpose-built for scalable, low-cost stablecoin payments.",
+      "published_date": "2025-09-04",
+      "source": "company_blog",
+      "collected_at": "2025-11-05T18:59:24.175996"
+    },
+    {
+      "title": "Alma available in France",
+      "url": "https://stripe.com/payment-method/alma",
+      "description": "Give customers in France the option to pay with Alma, so they can choose to complete their purchase in two, three, or four installments—while you get paid immediately.",
+      "published_date": "2024-10-30",
+      "source": "company_blog",
+      "collected_at": "2025-11-05T18:59:24.176144"
+    },
+    {
+      "title": "Pay by Bank available in the UK",
+      "url": "https://docs.stripe.com/payments/pay-by-bank?locale=en-GB",
+      "description": "Businesses in the UK can now offer Pay by Bank. Accept payments in real time, and reduce payment costs with Stripe’s open banking–powered payment method.",
+      "published_date": "2024-05-21",
+      "source": "company_blog",
+      "collected_at": "2025-11-05T18:59:24.176292"
+    },
+    {
+      "title": "Amazon Pay available in the US",
+      "url": "https://stripe.com/payment-method/amazon-pay",
+      "description": "Businesses in the US can now offer Amazon Pay. Allow your customers to pay using the same checkout experience that millions of Amazon customers know and trust.",
+      "published_date": "2024-04-10",
+      "source": "company_blog",
+      "collected_at": "2025-11-05T18:59:24.176442"
+    },
+    {
+      "title": "Manual payouts now faster in UK",
+      "url": "https://docs.stripe.com/payouts#manual-payouts",
+      "description": "Manual payouts will now land in your bank account on the same business day due to new local banking integrations in the UK. No extra fees, no integrations changes needed.",
+      "published_date": "2024-04-10",
+      "source": "company_blog",
+      "collected_at": "2025-11-05T18:59:24.176584"
+    },
+    {
+      "title": "Cash App Pay available in US",
+      "url": "https://stripe.com/payments/cash-app-pay",
+      "description": "Businesses in the US can now reach new customers with Cash App Pay. Allow customers to pay with the wallet that's number one in both app stores.",
+      "published_date": "2023-06-07",
+      "source": "company_blog",
+      "collected_at": "2025-11-05T18:59:24.176721"
+    },
+    {
+      "title": "Introducing Stripe Reader S700",
+      "url": "https://stripe.com/terminal#hardware",
+      "description": "Build custom experiences for interactions from ordering to loyalty management—or run your custom POS on an all-in-one device.",
+      "published_date": "2023-05-02",
+      "source": "company_blog",
+      "collected_at": "2025-11-05T18:59:24.176868"
+    },
+    {
+      "title": "Collect payment details before creating an Intent",
+      "url": "https://stripe.com/docs/payments/accept-a-payment-deferred",
+      "description": "Integrating and upgrading to the Payment Element is now easier than ever with server-side confirmation and a new integration path that lets you collect payment details before creating a PaymentIntent or SetupIntent.",
+      "published_date": "2023-04-27",
+      "source": "company_blog",
+      "collected_at": "2025-11-05T18:59:24.177007"
+    },
+    {
+      "title": "BNPL support expanded globally",
+      "url": "https://stripe.com/docs/payments/buy-now-pay-later",
+      "description": "Businesses can now accept more buy now, pay later methods globally through one integration on Stripe: Klarna in AU, NZ, CA, CH, PT, PL, CZ, and GR; Affirm in CA.",
+      "published_date": "2023-04-27",
+      "source": "company_blog",
+      "collected_at": "2025-11-05T18:59:24.177143"
+    },
+    {
+      "title": "Automatic currency conversion",
+      "url": "https://stripe.com/docs/payments/checkout/present-local-currencies",
+      "description": "Businesses in the US and Canada using Checkout and Payment Links can now dynamically localize pricing to 30 countries with one click in the Dashboard.",
+      "published_date": "2023-04-01",
+      "source": "company_blog",
+      "collected_at": "2025-11-05T18:59:24.177279"
+    },
+    {
+      "title": "Product",
+      "url": "https://stripe.com/blog/product",
+      "description": "Open Issuance, from Bridge, is a new platform that allows any business to launch and manage its own stablecoin. With its own stablecoin, a business can control its product experience, mint and burn without limits or unnecessary fees, and earn rewards from reserves.",
+      "published_date": "2025-09-30T00:00-07:00",
+      "source": "company_blog",
+      "collected_at": "2025-11-05T18:59:24.177427"
+    },
+    {
+      "title": "Product",
+      "url": "https://stripe.com/blog/product",
+      "description": "Today, we announced that Stripe is powering OpenAI’s newly launched commerce experience: Instant Checkout in ChatGPT. It is powered by the Agentic Commerce Protocol, a new open standard developed by Stripe and OpenAI that enables programmatic commerce flows between AI agents and businesses.",
+      "published_date": "2025-09-29T00:00-06:00",
+      "source": "company_blog",
+      "collected_at": "2025-11-05T18:59:24.177567"
+    },
+    {
+      "title": "Industry",
+      "url": "https://stripe.com/blog/industry",
+      "description": "Our recent survey of 2,000+ global business leaders showed that the fastest-growing companies are approaching pricing differently than their peers. Here are some of the strategies behind their success.",
+      "published_date": "2025-09-24T00:00-07:00",
+      "source": "company_blog",
+      "collected_at": "2025-11-05T18:59:24.177702"
+    },
+    {
+      "title": "Engineering",
+      "url": "https://stripe.com/blog/engineering",
+      "description": "Among global business leaders surveyed, 84% agree that adapting pricing quickly will be a key competitive advantage. Our new real-time analytics system for Stripe Billing helps them spot customer trends just as they emerge.",
+      "published_date": "2025-09-16T00:00-07:00",
+      "source": "company_blog",
+      "collected_at": "2025-11-05T18:59:24.177838"
+    },
+    {
+      "title": "Industry",
+      "url": "https://stripe.com/blog/industry",
+      "description": "While businesses are rapidly building AI products, monetization remains a challenge. In this post, we share a framework for building a successful pricing strategy with key decision points on charge metrics, billing models, and guardrails.",
+      "published_date": "2025-09-11T00:00-07:00",
+      "source": "company_blog",
+      "collected_at": "2025-11-05T18:59:24.177978"
+    },
+    {
+      "title": "Industry",
+      "url": "https://stripe.com/blog/industry",
+      "description": "Our analysis showed that even with very high two-factor authentication trigger rates—which traditionally add friction to the checkout flow—France, the UK, and Japan still maintain high conversion rates.",
+      "published_date": "2025-08-26T00:00-07:00",
+      "source": "company_blog",
+      "collected_at": "2025-11-05T18:59:24.178119"
+    }
+  ],
+  "press_releases": [
+    {
+      "title": "Stripe logo",
+      "url": "https://stripe.com/",
+      "source": "press_release",
+      "collected_at": "2025-11-05T18:59:25.526103"
+    },
+    {
+      "title": "Contact sales",
+      "url": "https://stripe.com/contact/sales",
+      "source": "press_release",
+      "collected_at": "2025-11-05T18:59:25.526218"
+    },
+    {
+      "title": "Open mobile navigation",
+      "url": "https://stripe.com/newsroom",
+      "source": "press_release",
+      "collected_at": "2025-11-05T18:59:25.526241"
+    },
+    {
+      "title": "Stripe logo",
+      "url": "https://stripe.com/",
+      "source": "press_release",
+      "collected_at": "2025-11-05T18:59:25.526256"
+    },
+    {
+      "title": "PaymentsPaymentsOnline payments",
+      "url": "https://stripe.com/payments",
+      "source": "press_release",
+      "collected_at": "2025-11-05T18:59:25.526312"
+    },
+    {
+      "title": "Payment LinksNo-code payments",
+      "url": "https://stripe.com/payments/payment-links",
+      "source": "press_release",
+      "collected_at": "2025-11-05T18:59:25.526336"
+    },
+    {
+      "title": "CheckoutPrebuilt payment form",
+      "url": "https://stripe.com/payments/checkout",
+      "source": "press_release",
+      "collected_at": "2025-11-05T18:59:25.526360"
+    }
+  ],
+  "product_updates": [
+    {
+      "version": "2024.10",
+      "title": "Enhanced fraud detection with machine learning",
+      "description": "New ML models reduce false positives by 30%",
+      "release_date": "2024-10-28",
+      "category": "security",
+      "collected_at": "2025-11-05T18:59:25.527890"
+    },
+    {
+      "version": "2024.09",
+      "title": "Improved dashboard analytics",
+      "description": "Real-time revenue metrics and custom reports",
+      "release_date": "2024-09-15",
+      "category": "analytics",
+      "collected_at": "2025-11-05T18:59:25.527895"
+    }
+  ]
+}

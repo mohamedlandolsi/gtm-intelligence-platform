@@ -1,0 +1,135 @@
+{
+  "updates": [
+    {
+      "post_id": "mock-post-1",
+      "content": "Excited to announce our new payment processing feature!",
+      "posted_at": "2024-10-15T10:00:00Z",
+      "likes": 1250,
+      "comments": 85,
+      "shares": 42,
+      "type": "company_update",
+      "url": "https://linkedin.com/posts/stripe-mock-1",
+      "gtm_categories": [
+        "general"
+      ],
+      "sentiment": "positive",
+      "engagement_score": 34.3
+    },
+    {
+      "post_id": "mock-post-2",
+      "content": "Join us at FinTech Summit 2024! Our CEO will be speaking.",
+      "posted_at": "2024-10-10T14:30:00Z",
+      "likes": 890,
+      "comments": 34,
+      "shares": 28,
+      "type": "event_announcement",
+      "url": "https://linkedin.com/posts/stripe-mock-2",
+      "gtm_categories": [
+        "event"
+      ],
+      "sentiment": "neutral",
+      "engagement_score": 22.64
+    },
+    {
+      "post_id": "mock-post-3",
+      "content": "We're hiring! Check out our open positions in Sales and Engineering.",
+      "posted_at": "2024-10-05T09:00:00Z",
+      "likes": 2100,
+      "comments": 156,
+      "shares": 89,
+      "type": "hiring_announcement",
+      "url": "https://linkedin.com/posts/stripe-mock-3",
+      "gtm_categories": [
+        "hiring"
+      ],
+      "sentiment": "neutral",
+      "engagement_score": 60.26
+    }
+  ],
+  "job_postings": [
+    {
+      "job_id": "mock-job-1",
+      "title": "Enterprise Sales Executive",
+      "department": "Sales",
+      "location": "San Francisco, CA",
+      "posted_date": "2024-10-20",
+      "description": "Looking for experienced sales professional to join our GTM team",
+      "seniority": "Mid-Senior level",
+      "employment_type": "Full-time",
+      "url": "https://linkedin.com/jobs/view/mock-job-1",
+      "is_gtm_role": true,
+      "seniority_level": "senior"
+    },
+    {
+      "job_id": "mock-job-2",
+      "title": "GTM Strategy Manager",
+      "department": "Strategy",
+      "location": "Remote",
+      "posted_date": "2024-10-18",
+      "description": "Drive go-to-market strategy for new product launches",
+      "seniority": "Mid-Senior level",
+      "employment_type": "Full-time",
+      "url": "https://linkedin.com/jobs/view/mock-job-2",
+      "is_gtm_role": true,
+      "seniority_level": "senior"
+    },
+    {
+      "job_id": "mock-job-3",
+      "title": "Account Executive - Financial Services",
+      "department": "Sales",
+      "location": "New York, NY",
+      "posted_date": "2024-10-12",
+      "description": "Sell our platform to financial institutions",
+      "seniority": "Entry level",
+      "employment_type": "Full-time",
+      "url": "https://linkedin.com/jobs/view/mock-job-3",
+      "is_gtm_role": true,
+      "seniority_level": "junior"
+    }
+  ],
+  "employee_insights": {
+    "company_name": "Stripe",
+    "total_employees": 7500,
+    "employee_growth_6m": "+12%",
+    "employee_growth_1y": "+25%",
+    "department_distribution": {
+      "Engineering": 3200,
+      "Sales": 1100,
+      "Customer Success": 950,
+      "Marketing": 450,
+      "Operations": 800,
+      "Finance": 350,
+      "HR": 250,
+      "Other": 400
+    },
+    "top_locations": [
+      {
+        "location": "San Francisco Bay Area",
+        "count": 2100
+      },
+      {
+        "location": "Dublin, Ireland",
+        "count": 1200
+      },
+      {
+        "location": "Singapore",
+        "count": 800
+      },
+      {
+        "location": "Remote",
+        "count": 1500
+      }
+    ],
+    "hiring_trends": {
+      "active_job_postings": 150,
+      "departments_hiring": [
+        "Sales",
+        "Engineering",
+        "Customer Success"
+      ],
+      "recent_hires_30d": 85
+    },
+    "collected_at": "2025-11-05T18:59:21.604389"
+  },
+  "classified_at": "2025-11-05T18:59:27.420534"
+}

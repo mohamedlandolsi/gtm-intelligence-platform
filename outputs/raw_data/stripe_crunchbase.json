@@ -1,0 +1,29 @@
+{
+  "entities": [
+    {
+      "uuid": "mock-uuid-123",
+      "properties": {
+        "identifier": {
+          "value": "stripe",
+          "permalink": "stripe"
+        },
+        "short_description": "Stripe is a leading fintech company",
+        "categories": [
+          "Financial Services",
+          "Payments",
+          "FinTech"
+        ],
+        "founded_on": "2010-01-01",
+        "employee_count": "5000-10000",
+        "headquarters_location": "San Francisco, CA",
+        "website_url": "https://www.stripe.com",
+        "funding_total": {
+          "value": 2000000000,
+          "currency": "USD"
+        },
+        "last_funding_type": "Series H"
+      }
+    }
+  ],
+  "collected_at": "2025-11-05T18:59:21.603018"
+}

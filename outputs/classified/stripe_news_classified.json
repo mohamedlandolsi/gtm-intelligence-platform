@@ -1,0 +1,18 @@
+[
+  {
+    "source": "TechCrunch",
+    "title": "Stripe announces new payment feature",
+    "description": "Stripe expands its fintech capabilities",
+    "url": "https://example.com/article1",
+    "published_at": "2025-11-05T18:59:21.601988",
+    "content": "Mock article content",
+    "category": "news",
+    "collected_at": "2025-11-05T18:59:21.601995",
+    "gtm_categories": [
+      "expansion"
+    ],
+    "sentiment": "neutral",
+    "relevance_score": 0.7,
+    "classified_at": "2025-11-05T18:59:27.419744"
+  }
+]

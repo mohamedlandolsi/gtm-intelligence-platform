@@ -1,0 +1,284 @@
+{
+  "company_overview": {
+    "name": "stripe",
+    "description": "Stripe is a leading fintech company",
+    "categories": [
+      "Financial Services",
+      "Payments",
+      "FinTech"
+    ],
+    "founded": "2010-01-01",
+    "headquarters": "San Francisco, CA",
+    "website": "https://www.stripe.com",
+    "employees": "5000-10000",
+    "funding_total": {
+      "value": 2000000000,
+      "currency": "USD"
+    },
+    "last_funding": "Series H"
+  },
+  "gtm_signals": {
+    "market_expansion": {
+      "strength": 0.0,
+      "evidence_count": 0,
+      "evidence": [],
+      "summary": "No strong signals detected for market expansion"
+    },
+    "product_innovation": {
+      "strength": 0.0,
+      "evidence_count": 0,
+      "evidence": [],
+      "summary": "No strong signals detected for product innovation"
+    },
+    "partnership_strategy": {
+      "strength": 0.0,
+      "evidence_count": 0,
+      "evidence": [],
+      "summary": "No strong signals detected for partnership strategy"
+    },
+    "talent_acquisition": {
+      "strength": 0.0,
+      "evidence_count": 0,
+      "evidence": [],
+      "summary": "No strong signals detected for talent acquisition"
+    },
+    "funding_growth": {
+      "strength": 0.0,
+      "evidence_count": 0,
+      "evidence": [],
+      "summary": "No strong signals detected for funding growth"
+    },
+    "customer_traction": {
+      "strength": 0.0,
+      "evidence_count": 0,
+      "evidence": [],
+      "summary": "No strong signals detected for customer traction"
+    }
+  },
+  "competitive_intelligence": {},
+  "developer_ecosystem": {
+    "total_repositories": 76,
+    "sdk_count": 8,
+    "total_stars": 39825,
+    "languages": [
+      "Swift",
+      "Python",
+      "Ruby",
+      "Java",
+      "C#",
+      "Go",
+      "TypeScript",
+      "HTML",
+      "Apex",
+      "Objective-C",
+      "PHP",
+      "Scala",
+      "JavaScript",
+      "Kotlin",
+      "CSS",
+      "Shell"
+    ],
+    "top_repos": [
+      {
+        "name": "stripe-node",
+        "full_name": "stripe/stripe-node",
+        "description": "Node.js library for the Stripe API.    ",
+        "url": "https://github.com/stripe/stripe-node",
+        "stars": 4235,
+        "forks": 835,
+        "watchers": 4235,
+        "language": "TypeScript",
+        "topics": [
+          "stripe",
+          "stripe-sdk"
+        ],
+        "created_at": "2011-09-28T00:28:33Z",
+        "updated_at": "2025-11-05T06:23:19Z",
+        "license": "MIT License",
+        "is_archived": false,
+        "collected_at": "2025-11-05T18:59:27.415559",
+        "repo_type": "sdk",
+        "traction_score": 80.225,
+        "is_sdk": true
+      },
+      {
+        "name": "stripe-php",
+        "full_name": "stripe/stripe-php",
+        "description": "PHP library for the Stripe API.    ",
+        "url": "https://github.com/stripe/stripe-php",
+        "stars": 3945,
+        "forks": 890,
+        "watchers": 3945,
+        "language": "PHP",
+        "topics": [
+          "stripe",
+          "stripe-sdk"
+        ],
+        "created_at": "2011-06-25T19:52:24Z",
+        "updated_at": "2025-11-03T19:48:45Z",
+        "license": "MIT License",
+        "is_archived": false,
+        "collected_at": "2025-11-05T18:59:27.415602",
+        "repo_type": "sdk",
+        "traction_score": 76.975,
+        "is_sdk": true
+      },
+      {
+        "name": "stripe-ios",
+        "full_name": "stripe/stripe-ios",
+        "description": "Stripe iOS SDK    ",
+        "url": "https://github.com/stripe/stripe-ios",
+        "stars": 2459,
+        "forks": 1032,
+        "watchers": 2459,
+        "language": "Swift",
+        "topics": [
+          "stripe",
+          "stripe-sdk"
+        ],
+        "created_at": "2012-11-12T16:55:08Z",
+        "updated_at": "2025-11-05T05:16:44Z",
+        "license": "MIT License",
+        "is_archived": false,
+        "collected_at": "2025-11-05T18:59:27.415563",
+        "repo_type": "sdk",
+        "traction_score": 57.525,
+        "is_sdk": false
+      },
+      {
+        "name": "stripe-go",
+        "full_name": "stripe/stripe-go",
+        "description": "Go library for the Stripe API.    ",
+        "url": "https://github.com/stripe/stripe-go",
+        "stars": 2436,
+        "forks": 499,
+        "watchers": 2436,
+        "language": "Go",
+        "topics": [
+          "stripe",
+          "stripe-sdk"
+        ],
+        "created_at": "2014-06-05T23:38:14Z",
+        "updated_at": "2025-11-04T23:06:08Z",
+        "license": "MIT License",
+        "is_archived": false,
+        "collected_at": "2025-11-05T18:59:27.415569",
+        "repo_type": "sdk",
+        "traction_score": 46.52,
+        "is_sdk": false
+      },
+      {
+        "name": "stripe-ruby",
+        "full_name": "stripe/stripe-ruby",
+        "description": "Ruby library for the Stripe API.    ",
+        "url": "https://github.com/stripe/stripe-ruby",
+        "stars": 2055,
+        "forks": 591,
+        "watchers": 2055,
+        "language": "Ruby",
+        "topics": [
+          "stripe",
+          "stripe-sdk"
+        ],
+        "created_at": "2011-06-25T19:51:57Z",
+        "updated_at": "2025-11-04T00:31:33Z",
+        "license": "MIT License",
+        "is_archived": false,
+        "collected_at": "2025-11-05T18:59:27.415600",
+        "repo_type": "sdk",
+        "traction_score": 42.645,
+        "is_sdk": true
+      }
+    ],
+    "developer_traction": 32.42875
+  },
+  "growth_indicators": {
+    "hiring_velocity": {
+      "total_postings": 3,
+      "gtm_roles": 3,
+      "departments_hiring": [
+        "Sales",
+        "Strategy"
+      ],
+      "seniority_mix": {
+        "senior": 2,
+        "junior": 1
+      }
+    },
+    "team_growth": {
+      "total_employees": 7500,
+      "growth_6m": "+12%",
+      "growth_1y": "+25%",
+      "department_distribution": {
+        "Engineering": 3200,
+        "Sales": 1100,
+        "Customer Success": 950,
+        "Marketing": 450,
+        "Operations": 800,
+        "Finance": 350,
+        "HR": 250,
+        "Other": 400
+      }
+    }
+  },
+  "strategic_initiatives": [
+    {
+      "type": "product_announcement",
+      "title": "Product",
+      "date": "2025-10-14T00:00-07:00",
+      "url": "https://stripe.com/blog/product",
+      "content_type": "announcement"
+    },
+    {
+      "type": "product_announcement",
+      "title": "Introducing Tempo, the payments-first blockchain",
+      "date": "2025-09-04",
+      "url": "https://tempo.xyz/launch-announcement",
+      "content_type": "announcement"
+    },
+    {
+      "type": "product_announcement",
+      "title": "Introducing Stripe Reader S700",
+      "date": "2023-05-02",
+      "url": "https://stripe.com/terminal#hardware",
+      "content_type": "announcement"
+    },
+    {
+      "type": "product_announcement",
+      "title": "Product",
+      "date": "2025-09-30T00:00-07:00",
+      "url": "https://stripe.com/blog/product",
+      "content_type": "announcement"
+    },
+    {
+      "type": "product_announcement",
+      "title": "Product",
+      "date": "2025-09-29T00:00-06:00",
+      "url": "https://stripe.com/blog/product",
+      "content_type": "announcement"
+    },
+    {
+      "type": "news",
+      "title": "Stripe announces new payment feature",
+      "categories": [
+        "expansion"
+      ],
+      "date": "2025-11-05T18:59:21.601988",
+      "source": "TechCrunch",
+      "url": "https://example.com/article1",
+      "relevance": 0.7,
+      "sentiment": "neutral"
+    }
+  ],
+  "recommendations": [],
+  "metadata": {
+    "generated_at": "2025-11-05T18:59:27.430656",
+    "data_sources": [
+      "stripe_announcements_classified.json",
+      "stripe_crunchbase_classified.json",
+      "stripe_github_classified.json",
+      "stripe_linkedin_classified.json",
+      "stripe_news_classified.json"
+    ]
+  }
+}

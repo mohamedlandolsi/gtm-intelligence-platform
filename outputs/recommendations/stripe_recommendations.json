@@ -1,0 +1,64 @@
+{
+  "company": "Stripe",
+  "generated_at": "2025-11-05T18:59:27.503223",
+  "positioning_recommendations": [],
+  "timing_recommendations": [],
+  "messaging_recommendations": [],
+  "competitive_recommendations": [],
+  "engagement_recommendations": [
+    {
+      "title": "LinkedIn Social Selling",
+      "priority": "medium",
+      "channels": [
+        "LinkedIn"
+      ],
+      "recommendation": "Engage with their LinkedIn content and thought leadership",
+      "tactics": [
+        "Comment thoughtfully on company posts",
+        "Share their content with value-add commentary",
+        "Connect with GTM leaders at the company"
+      ]
+    },
+    {
+      "title": "Developer Community Engagement",
+      "priority": "low",
+      "channels": [
+        "GitHub",
+        "Developer Forums"
+      ],
+      "recommendation": "Engage through their developer community",
+      "tactics": [
+        "Contribute to their open source projects",
+        "Create integration examples",
+        "Participate in developer discussions"
+      ]
+    }
+  ],
+  "partnership_recommendations": [],
+  "priority_actions": [
+    {
+      "priority": 3,
+      "urgency": "near-term",
+      "action": "Develop personalized value proposition",
+      "why": "Generic outreach won't resonate with innovative fintech",
+      "how": "Use intelligence insights to craft company-specific messaging",
+      "timeline": "Before first outreach"
+    },
+    {
+      "priority": 4,
+      "urgency": "this-month",
+      "action": "Map key stakeholders and decision makers",
+      "why": "Larger organizations require multi-threading",
+      "how": "LinkedIn research + organizational chart building",
+      "timeline": "This month"
+    }
+  ],
+  "talking_points": [
+    {
+      "category": "growth",
+      "point": "Congrats on the growth - I saw you're now at 7500 employees",
+      "follow_up": "How is your team handling the scaling challenges?",
+      "context": "Use when discussing growth or team expansion"
+    }
+  ]
+}

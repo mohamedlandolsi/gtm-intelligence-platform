@@ -1,0 +1,88 @@
+DETAILED GTM ANALYSIS: STRIPE
+================================================================================
+Generated: 2025-11-05 18:59
+
+
+STRATEGIC INITIATIVES (RECENT)
+--------------------------------------------------------------------------------
+
+[2025-11-05T18:59:21.601988] Stripe announces new payment feature
+Type: news
+Categories: expansion
+Relevance: 0.70
+Source: https://example.com/article1
+
+[2025-10-14T00:00-07:00] Product
+Type: product_announcement
+Categories: 
+Source: https://stripe.com/blog/product
+
+[2025-09-30T00:00-07:00] Product
+Type: product_announcement
+Categories: 
+Source: https://stripe.com/blog/product
+
+[2025-09-29T00:00-06:00] Product
+Type: product_announcement
+Categories: 
+Source: https://stripe.com/blog/product
+
+[2025-09-04] Introducing Tempo, the payments-first blockchain
+Type: product_announcement
+Categories: 
+Source: https://tempo.xyz/launch-announcement
+
+[2023-05-02] Introducing Stripe Reader S700
+Type: product_announcement
+Categories: 
+Source: https://stripe.com/terminal#hardware
+
+
+DETAILED SIGNAL ANALYSIS
+--------------------------------------------------------------------------------
+
+MARKET EXPANSION
+Strength: 0.00
+Evidence Count: 0
+Summary: No strong signals detected for market expansion
+
+PRODUCT INNOVATION
+Strength: 0.00
+Evidence Count: 0
+Summary: No strong signals detected for product innovation
+
+PARTNERSHIP STRATEGY
+Strength: 0.00
+Evidence Count: 0
+Summary: No strong signals detected for partnership strategy
+
+TALENT ACQUISITION
+Strength: 0.00
+Evidence Count: 0
+Summary: No strong signals detected for talent acquisition
+
+FUNDING GROWTH
+Strength: 0.00
+Evidence Count: 0
+Summary: No strong signals detected for funding growth
+
+CUSTOMER TRACTION
+Strength: 0.00
+Evidence Count: 0
+Summary: No strong signals detected for customer traction
+
+
+DEPARTMENT DISTRIBUTION
+--------------------------------------------------------------------------------
+Engineering...................  3200 ( 42.7%) █████████████████████
+Sales.........................  1100 ( 14.7%) ███████
+Customer Success..............   950 ( 12.7%) ██████
+Operations....................   800 ( 10.7%) █████
+Marketing.....................   450 (  6.0%) ███
+Other.........................   400 (  5.3%) ██
+Finance.......................   350 (  4.7%) ██
+HR............................   250 (  3.3%) █
+
+
+================================================================================
+END OF DETAILED REPORT
