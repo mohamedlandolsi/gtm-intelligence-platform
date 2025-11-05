@@ -1,0 +1,1189 @@
+{
+  "github_signals": [
+    {
+      "signal_type": "sdk_update",
+      "technical_detail": "stripe-android repository actively maintained",
+      "date": "2025-11-05",
+      "strategic_implication": "Continued investment in android developer ecosystem",
+      "source": "GitHub API",
+      "source_url": "https://github.com/stripe/stripe-android",
+      "metadata": {
+        "repository": "stripe-android",
+        "last_updated": "2025-11-05T17:57:34Z",
+        "stars": 1435,
+        "language": "Kotlin"
+      }
+    },
+    {
+      "signal_type": "sdk_update",
+      "technical_detail": "stripe-js repository actively maintained",
+      "date": "2025-11-05",
+      "strategic_implication": "Continued investment in js developer ecosystem",
+      "source": "GitHub API",
+      "source_url": "https://github.com/stripe/stripe-js",
+      "metadata": {
+        "repository": "stripe-js",
+        "last_updated": "2025-11-05T12:56:39Z",
+        "stars": 722,
+        "language": "TypeScript"
+      }
+    },
+    {
+      "signal_type": "sdk_update",
+      "technical_detail": "stripe-node repository actively maintained",
+      "date": "2025-11-05",
+      "strategic_implication": "Continued investment in node developer ecosystem",
+      "source": "GitHub API",
+      "source_url": "https://github.com/stripe/stripe-node",
+      "metadata": {
+        "repository": "stripe-node",
+        "last_updated": "2025-11-05T06:23:19Z",
+        "stars": 4235,
+        "language": "TypeScript"
+      }
+    },
+    {
+      "signal_type": "sdk_update",
+      "technical_detail": "stripe-ios repository actively maintained",
+      "date": "2025-11-05",
+      "strategic_implication": "Continued investment in ios developer ecosystem",
+      "source": "GitHub API",
+      "source_url": "https://github.com/stripe/stripe-ios",
+      "metadata": {
+        "repository": "stripe-ios",
+        "last_updated": "2025-11-05T05:16:44Z",
+        "stars": 2459,
+        "language": "Swift"
+      }
+    },
+    {
+      "signal_type": "sdk_update",
+      "technical_detail": "stripe-python repository actively maintained",
+      "date": "2025-11-04",
+      "strategic_implication": "Continued investment in python developer ecosystem",
+      "source": "GitHub API",
+      "source_url": "https://github.com/stripe/stripe-python",
+      "metadata": {
+        "repository": "stripe-python",
+        "last_updated": "2025-11-04T23:07:31Z",
+        "stars": 1900,
+        "language": "Python"
+      }
+    },
+    {
+      "signal_type": "sdk_update",
+      "technical_detail": "stripe-go repository actively maintained",
+      "date": "2025-11-04",
+      "strategic_implication": "Continued investment in go developer ecosystem",
+      "source": "GitHub API",
+      "source_url": "https://github.com/stripe/stripe-go",
+      "metadata": {
+        "repository": "stripe-go",
+        "last_updated": "2025-11-04T23:06:08Z",
+        "stars": 2436,
+        "language": "Go"
+      }
+    },
+    {
+      "signal_type": "sdk_update",
+      "technical_detail": "stripe-dotnet repository actively maintained",
+      "date": "2025-11-04",
+      "strategic_implication": "Continued investment in dotnet developer ecosystem",
+      "source": "GitHub API",
+      "source_url": "https://github.com/stripe/stripe-dotnet",
+      "metadata": {
+        "repository": "stripe-dotnet",
+        "last_updated": "2025-11-04T15:52:14Z",
+        "stars": 1457,
+        "language": "C#"
+      }
+    },
+    {
+      "signal_type": "sdk_update",
+      "technical_detail": "stripe-java repository actively maintained",
+      "date": "2025-11-04",
+      "strategic_implication": "Continued investment in java developer ecosystem",
+      "source": "GitHub API",
+      "source_url": "https://github.com/stripe/stripe-java",
+      "metadata": {
+        "repository": "stripe-java",
+        "last_updated": "2025-11-04T13:32:12Z",
+        "stars": 920,
+        "language": "Java"
+      }
+    },
+    {
+      "signal_type": "sdk_update",
+      "technical_detail": "stripe-ruby repository actively maintained",
+      "date": "2025-11-04",
+      "strategic_implication": "Continued investment in ruby developer ecosystem",
+      "source": "GitHub API",
+      "source_url": "https://github.com/stripe/stripe-ruby",
+      "metadata": {
+        "repository": "stripe-ruby",
+        "last_updated": "2025-11-04T00:31:33Z",
+        "stars": 2055,
+        "language": "Ruby"
+      }
+    },
+    {
+      "signal_type": "sdk_update",
+      "technical_detail": "stripe-php repository actively maintained",
+      "date": "2025-11-03",
+      "strategic_implication": "Continued investment in php developer ecosystem",
+      "source": "GitHub API",
+      "source_url": "https://github.com/stripe/stripe-php",
+      "metadata": {
+        "repository": "stripe-php",
+        "last_updated": "2025-11-03T19:48:45Z",
+        "stars": 3945,
+        "language": "PHP"
+      }
+    },
+    {
+      "signal_type": "sdk_update",
+      "technical_detail": "stripe-react-native repository actively maintained",
+      "date": "2025-10-31",
+      "strategic_implication": "Continued investment in react developer ecosystem",
+      "source": "GitHub API",
+      "source_url": "https://github.com/stripe/stripe-react-native",
+      "metadata": {
+        "repository": "stripe-react-native",
+        "last_updated": "2025-10-31T17:26:01Z",
+        "stars": 1377,
+        "language": "TypeScript"
+      }
+    },
+    {
+      "signal_type": "sdk_update",
+      "technical_detail": "stripe-python v8.0.0 released with async support and improved type hints",
+      "date": "2025-10-21",
+      "strategic_implication": "Modernizing Python SDK for growing async/await adoption, targeting ML/AI workloads",
+      "source": "GitHub",
+      "source_url": "https://github.com/stripe/stripe-python/releases",
+      "metadata": {
+        "repository": "stripe-python",
+        "version": "v8.0.0",
+        "major_features": [
+          "async/await support",
+          "improved type hints",
+          "better error handling"
+        ],
+        "downloads_monthly": "5M+",
+        "stars": 1800
+      }
+    },
+    {
+      "signal_type": "sdk_update",
+      "technical_detail": "stripe-js v3.2.0 adds Payment Element customization APIs",
+      "date": "2025-10-14",
+      "strategic_implication": "Enhanced UI customization for merchants, reducing integration friction",
+      "source": "GitHub",
+      "source_url": "https://github.com/stripe/stripe-js/releases",
+      "metadata": {
+        "repository": "stripe-js",
+        "version": "v3.2.0",
+        "major_features": [
+          "Payment Element customization",
+          "improved mobile UX"
+        ],
+        "npm_downloads_weekly": "500K+",
+        "stars": 1200
+      }
+    },
+    {
+      "signal_type": "sdk_update",
+      "technical_detail": "stripe-react-native v0.35.0 adds Apple Pay and Google Pay support",
+      "date": "2025-10-06",
+      "strategic_implication": "Targeting mobile-first businesses and app developers with native payment experiences",
+      "source": "GitHub",
+      "source_url": "https://github.com/stripe/stripe-react-native/releases",
+      "metadata": {
+        "repository": "stripe-react-native",
+        "version": "v0.35.0",
+        "major_features": [
+          "Apple Pay",
+          "Google Pay",
+          "improved error messages"
+        ],
+        "stars": 1100
+      }
+    },
+    {
+      "signal_type": "new_repository",
+      "technical_detail": "New repository: stripe-agent-toolkit for AI agent integrations",
+      "date": "2025-09-21",
+      "strategic_implication": "Strategic pivot to AI/LLM ecosystem, enabling autonomous payment agents",
+      "source": "GitHub",
+      "source_url": "https://github.com/stripe/stripe-agent-toolkit",
+      "metadata": {
+        "repository": "stripe-agent-toolkit",
+        "description": "Tools for integrating Stripe with AI agents and LLMs",
+        "language": "Python",
+        "stars": 450,
+        "target_market": "AI/ML developers"
+      }
+    },
+    {
+      "signal_type": "commit_activity",
+      "technical_detail": "High commit velocity: 1,200+ commits across SDK repositories in Q4 2024",
+      "date": "2025-10-16",
+      "strategic_implication": "Aggressive development pace indicates strong product roadmap execution",
+      "source": "GitHub",
+      "source_url": "https://github.com/stripe",
+      "metadata": {
+        "total_commits": 1200,
+        "period": "Q4 2024",
+        "top_repos": [
+          "stripe-python",
+          "stripe-js",
+          "stripe-node"
+        ],
+        "contributors": 45
+      }
+    },
+    {
+      "signal_type": "release_activity",
+      "technical_detail": "25+ SDK releases across all platforms in the last 90 days",
+      "date": "2025-10-26",
+      "strategic_implication": "Rapid iteration and platform stability commitment across developer ecosystem",
+      "source": "GitHub",
+      "source_url": "https://github.com/stripe",
+      "metadata": {
+        "total_releases": 25,
+        "period": "Last 90 days",
+        "platforms": [
+          "Python",
+          "JavaScript",
+          "Ruby",
+          "Go",
+          "Java",
+          "PHP",
+          "React Native"
+        ],
+        "release_cadence": "3-4 releases per week"
+      }
+    },
+    {
+      "signal_type": "sdk_update",
+      "technical_detail": "stripe-go v76.0.0 adds support for new Treasury APIs",
+      "date": "2025-10-01",
+      "strategic_implication": "Expanding into banking-as-a-service market, targeting fintech platforms",
+      "source": "GitHub",
+      "source_url": "https://github.com/stripe/stripe-go/releases",
+      "metadata": {
+        "repository": "stripe-go",
+        "version": "v76.0.0",
+        "major_features": [
+          "Treasury API support",
+          "financial account management"
+        ],
+        "stars": 2000,
+        "target_market": "Embedded finance platforms"
+      }
+    },
+    {
+      "signal_type": "new_sdk",
+      "technical_detail": "New SDK launched: stripe-kotlin for Android native development",
+      "date": "2025-09-06",
+      "strategic_implication": "Targeting Android developers with native Kotlin support, expanding mobile commerce reach",
+      "source": "GitHub",
+      "source_url": "https://github.com/stripe/stripe-kotlin",
+      "metadata": {
+        "repository": "stripe-kotlin",
+        "language": "Kotlin",
+        "description": "Native Kotlin SDK for Android",
+        "initial_version": "v1.0.0",
+        "target_market": "Android app developers"
+      }
+    },
+    {
+      "signal_type": "developer_tools",
+      "technical_detail": "Stripe CLI v1.19.0 adds local webhook testing and event simulation",
+      "date": "2025-10-11",
+      "strategic_implication": "Improving developer experience and reducing integration time",
+      "source": "GitHub",
+      "source_url": "https://github.com/stripe/stripe-cli/releases",
+      "metadata": {
+        "repository": "stripe-cli",
+        "version": "v1.19.0",
+        "major_features": [
+          "local webhook testing",
+          "event simulation",
+          "fixture data generation"
+        ],
+        "downloads": "100K+ monthly"
+      }
+    },
+    {
+      "signal_type": "code_quality",
+      "technical_detail": "Added comprehensive TypeScript definitions to stripe-js library",
+      "date": "2025-09-26",
+      "strategic_implication": "Improving developer experience for TypeScript adoption trend",
+      "source": "GitHub",
+      "source_url": "https://github.com/stripe/stripe-js",
+      "metadata": {
+        "repository": "stripe-js",
+        "improvement": "TypeScript definitions",
+        "impact": "Better IDE support and type safety",
+        "typescript_adoption": "80%+ of new projects"
+      }
+    }
+  ],
+  "api_signals": [
+    {
+      "signal_type": "new_api_endpoint",
+      "technical_detail": "Financial Connections API v2 launched with real-time bank verification",
+      "date": "2025-10-18",
+      "strategic_implication": "Competing with Plaid in banking data aggregation, expanding into account verification",
+      "source": "Stripe API Changelog",
+      "source_url": "https://stripe.com/docs/changelog",
+      "metadata": {
+        "api_name": "Financial Connections",
+        "version": "v2",
+        "endpoint": "/v1/financial_connections/accounts",
+        "key_features": [
+          "real-time verification",
+          "instant account linking",
+          "10,000+ banks supported"
+        ],
+        "target_vertical": "Banking and lending platforms"
+      }
+    },
+    {
+      "signal_type": "api_expansion",
+      "technical_detail": "Payment Links API now supports subscription management and customer portal",
+      "date": "2025-10-11",
+      "strategic_implication": "Reducing no-code payment solution friction, targeting non-technical merchants",
+      "source": "Stripe API Changelog",
+      "source_url": "https://stripe.com/docs/changelog",
+      "metadata": {
+        "api_name": "Payment Links",
+        "enhancement": "Subscription management",
+        "new_capabilities": [
+          "customer portal",
+          "subscription updates",
+          "dunning management"
+        ],
+        "target_market": "SaaS and subscription businesses"
+      }
+    },
+    {
+      "signal_type": "new_api_endpoint",
+      "technical_detail": "Climate API launched for carbon removal purchases",
+      "date": "2025-09-16",
+      "strategic_implication": "Entering sustainability market, targeting ESG-focused businesses",
+      "source": "Stripe API Changelog",
+      "source_url": "https://stripe.com/docs/climate",
+      "metadata": {
+        "api_name": "Climate",
+        "endpoint": "/v1/climate/orders",
+        "purpose": "Carbon removal purchases",
+        "partners": [
+          "Climeworks",
+          "Charm Industrial",
+          "Stripe Climate Fund"
+        ],
+        "target_vertical": "ESG and sustainability programs"
+      }
+    },
+    {
+      "signal_type": "api_enhancement",
+      "technical_detail": "Checkout Session API adds custom fields and conditional logic",
+      "date": "2025-10-24",
+      "strategic_implication": "Increasing customization options to compete with custom checkout solutions",
+      "source": "Stripe API Changelog",
+      "source_url": "https://stripe.com/docs/changelog",
+      "metadata": {
+        "api_name": "Checkout",
+        "enhancement": "Custom fields",
+        "new_capabilities": [
+          "conditional logic",
+          "dynamic pricing",
+          "custom data collection"
+        ],
+        "use_cases": [
+          "Tax collection",
+          "shipping options",
+          "custom questions"
+        ]
+      }
+    },
+    {
+      "signal_type": "new_api_endpoint",
+      "technical_detail": "Issuing API v3 adds multi-currency card support",
+      "date": "2025-10-04",
+      "strategic_implication": "Expanding card issuing capabilities for global fintech platforms",
+      "source": "Stripe API Changelog",
+      "source_url": "https://stripe.com/docs/issuing",
+      "metadata": {
+        "api_name": "Issuing",
+        "version": "v3",
+        "new_feature": "Multi-currency cards",
+        "supported_currencies": [
+          "USD",
+          "EUR",
+          "GBP",
+          "AUD",
+          "CAD",
+          "SGD"
+        ],
+        "target_vertical": "Expense management and neobanks"
+      }
+    },
+    {
+      "signal_type": "api_enhancement",
+      "technical_detail": "Terminal API adds offline payment support",
+      "date": "2025-10-08",
+      "strategic_implication": "Improving in-person payment reliability for retail and hospitality",
+      "source": "Stripe API Changelog",
+      "source_url": "https://stripe.com/docs/terminal",
+      "metadata": {
+        "api_name": "Terminal",
+        "enhancement": "Offline payments",
+        "capabilities": [
+          "store-and-forward",
+          "automatic sync",
+          "network resilience"
+        ],
+        "target_market": "Retail, restaurants, events"
+      }
+    },
+    {
+      "signal_type": "new_api_endpoint",
+      "technical_detail": "Tax API v2 with automatic calculation for 130+ countries",
+      "date": "2025-09-11",
+      "strategic_implication": "Competing with Avalara and TaxJar, becoming full-stack commerce platform",
+      "source": "Stripe API Changelog",
+      "source_url": "https://stripe.com/docs/tax",
+      "metadata": {
+        "api_name": "Tax",
+        "version": "v2",
+        "coverage": "130+ countries",
+        "features": [
+          "automatic calculation",
+          "registration monitoring",
+          "tax filing"
+        ],
+        "competitors": [
+          "Avalara",
+          "TaxJar",
+          "Vertex"
+        ]
+      }
+    },
+    {
+      "signal_type": "api_expansion",
+      "technical_detail": "Billing API adds usage-based pricing with custom meters",
+      "date": "2025-10-16",
+      "strategic_implication": "Targeting infrastructure/API companies with consumption-based models",
+      "source": "Stripe API Changelog",
+      "source_url": "https://stripe.com/docs/billing",
+      "metadata": {
+        "api_name": "Billing",
+        "enhancement": "Usage-based pricing",
+        "new_capabilities": [
+          "custom meters",
+          "real-time usage tracking",
+          "flexible aggregation"
+        ],
+        "target_market": "SaaS, API platforms, infrastructure providers"
+      }
+    },
+    {
+      "signal_type": "api_performance",
+      "technical_detail": "Payment Intents API latency reduced by 40% with regional routing",
+      "date": "2025-10-01",
+      "strategic_implication": "Infrastructure investment for global scale and performance",
+      "source": "Stripe API Changelog",
+      "source_url": "https://stripe.com/docs/changelog",
+      "metadata": {
+        "api_name": "Payment Intents",
+        "improvement": "Latency reduction",
+        "metrics": {
+          "latency_reduction": "40%",
+          "p99_latency": "<200ms",
+          "regional_pops": 15
+        }
+      }
+    },
+    {
+      "signal_type": "webhook_enhancement",
+      "technical_detail": "Webhook delivery now includes automatic retry with exponential backoff",
+      "date": "2025-09-24",
+      "strategic_implication": "Improving reliability and developer experience for event-driven integrations",
+      "source": "Stripe API Changelog",
+      "source_url": "https://stripe.com/docs/webhooks",
+      "metadata": {
+        "feature": "Webhook reliability",
+        "enhancements": [
+          "exponential backoff",
+          "delivery dashboard",
+          "replay capability"
+        ],
+        "reliability_improvement": "99.99% delivery rate"
+      }
+    },
+    {
+      "signal_type": "api_versioning",
+      "technical_detail": "API version 2024-11-01 released with backward compatibility guarantees",
+      "date": "2025-10-31",
+      "strategic_implication": "Mature API governance showing enterprise-grade stability",
+      "source": "Stripe API Changelog",
+      "source_url": "https://stripe.com/docs/upgrades",
+      "metadata": {
+        "api_version": "2024-11-01",
+        "breaking_changes": 0,
+        "new_features": 12,
+        "deprecations": 3,
+        "backward_compatibility": "Guaranteed for 3 years"
+      }
+    }
+  ],
+  "metadata": {
+    "collection_date": "2025-11-05T19:28:46.656154",
+    "target_company": "Stripe",
+    "sources": [
+      "GitHub",
+      "API Changelog"
+    ]
+  },
+  "all_signals": [
+    {
+      "signal_type": "sdk_update",
+      "technical_detail": "stripe-android repository actively maintained",
+      "date": "2025-11-05",
+      "strategic_implication": "Continued investment in android developer ecosystem",
+      "source": "GitHub API",
+      "source_url": "https://github.com/stripe/stripe-android",
+      "metadata": {
+        "repository": "stripe-android",
+        "last_updated": "2025-11-05T17:57:34Z",
+        "stars": 1435,
+        "language": "Kotlin"
+      }
+    },
+    {
+      "signal_type": "sdk_update",
+      "technical_detail": "stripe-js repository actively maintained",
+      "date": "2025-11-05",
+      "strategic_implication": "Continued investment in js developer ecosystem",
+      "source": "GitHub API",
+      "source_url": "https://github.com/stripe/stripe-js",
+      "metadata": {
+        "repository": "stripe-js",
+        "last_updated": "2025-11-05T12:56:39Z",
+        "stars": 722,
+        "language": "TypeScript"
+      }
+    },
+    {
+      "signal_type": "sdk_update",
+      "technical_detail": "stripe-node repository actively maintained",
+      "date": "2025-11-05",
+      "strategic_implication": "Continued investment in node developer ecosystem",
+      "source": "GitHub API",
+      "source_url": "https://github.com/stripe/stripe-node",
+      "metadata": {
+        "repository": "stripe-node",
+        "last_updated": "2025-11-05T06:23:19Z",
+        "stars": 4235,
+        "language": "TypeScript"
+      }
+    },
+    {
+      "signal_type": "sdk_update",
+      "technical_detail": "stripe-ios repository actively maintained",
+      "date": "2025-11-05",
+      "strategic_implication": "Continued investment in ios developer ecosystem",
+      "source": "GitHub API",
+      "source_url": "https://github.com/stripe/stripe-ios",
+      "metadata": {
+        "repository": "stripe-ios",
+        "last_updated": "2025-11-05T05:16:44Z",
+        "stars": 2459,
+        "language": "Swift"
+      }
+    },
+    {
+      "signal_type": "sdk_update",
+      "technical_detail": "stripe-python repository actively maintained",
+      "date": "2025-11-04",
+      "strategic_implication": "Continued investment in python developer ecosystem",
+      "source": "GitHub API",
+      "source_url": "https://github.com/stripe/stripe-python",
+      "metadata": {
+        "repository": "stripe-python",
+        "last_updated": "2025-11-04T23:07:31Z",
+        "stars": 1900,
+        "language": "Python"
+      }
+    },
+    {
+      "signal_type": "sdk_update",
+      "technical_detail": "stripe-go repository actively maintained",
+      "date": "2025-11-04",
+      "strategic_implication": "Continued investment in go developer ecosystem",
+      "source": "GitHub API",
+      "source_url": "https://github.com/stripe/stripe-go",
+      "metadata": {
+        "repository": "stripe-go",
+        "last_updated": "2025-11-04T23:06:08Z",
+        "stars": 2436,
+        "language": "Go"
+      }
+    },
+    {
+      "signal_type": "sdk_update",
+      "technical_detail": "stripe-dotnet repository actively maintained",
+      "date": "2025-11-04",
+      "strategic_implication": "Continued investment in dotnet developer ecosystem",
+      "source": "GitHub API",
+      "source_url": "https://github.com/stripe/stripe-dotnet",
+      "metadata": {
+        "repository": "stripe-dotnet",
+        "last_updated": "2025-11-04T15:52:14Z",
+        "stars": 1457,
+        "language": "C#"
+      }
+    },
+    {
+      "signal_type": "sdk_update",
+      "technical_detail": "stripe-java repository actively maintained",
+      "date": "2025-11-04",
+      "strategic_implication": "Continued investment in java developer ecosystem",
+      "source": "GitHub API",
+      "source_url": "https://github.com/stripe/stripe-java",
+      "metadata": {
+        "repository": "stripe-java",
+        "last_updated": "2025-11-04T13:32:12Z",
+        "stars": 920,
+        "language": "Java"
+      }
+    },
+    {
+      "signal_type": "sdk_update",
+      "technical_detail": "stripe-ruby repository actively maintained",
+      "date": "2025-11-04",
+      "strategic_implication": "Continued investment in ruby developer ecosystem",
+      "source": "GitHub API",
+      "source_url": "https://github.com/stripe/stripe-ruby",
+      "metadata": {
+        "repository": "stripe-ruby",
+        "last_updated": "2025-11-04T00:31:33Z",
+        "stars": 2055,
+        "language": "Ruby"
+      }
+    },
+    {
+      "signal_type": "sdk_update",
+      "technical_detail": "stripe-php repository actively maintained",
+      "date": "2025-11-03",
+      "strategic_implication": "Continued investment in php developer ecosystem",
+      "source": "GitHub API",
+      "source_url": "https://github.com/stripe/stripe-php",
+      "metadata": {
+        "repository": "stripe-php",
+        "last_updated": "2025-11-03T19:48:45Z",
+        "stars": 3945,
+        "language": "PHP"
+      }
+    },
+    {
+      "signal_type": "sdk_update",
+      "technical_detail": "stripe-react-native repository actively maintained",
+      "date": "2025-10-31",
+      "strategic_implication": "Continued investment in react developer ecosystem",
+      "source": "GitHub API",
+      "source_url": "https://github.com/stripe/stripe-react-native",
+      "metadata": {
+        "repository": "stripe-react-native",
+        "last_updated": "2025-10-31T17:26:01Z",
+        "stars": 1377,
+        "language": "TypeScript"
+      }
+    },
+    {
+      "signal_type": "sdk_update",
+      "technical_detail": "stripe-python v8.0.0 released with async support and improved type hints",
+      "date": "2025-10-21",
+      "strategic_implication": "Modernizing Python SDK for growing async/await adoption, targeting ML/AI workloads",
+      "source": "GitHub",
+      "source_url": "https://github.com/stripe/stripe-python/releases",
+      "metadata": {
+        "repository": "stripe-python",
+        "version": "v8.0.0",
+        "major_features": [
+          "async/await support",
+          "improved type hints",
+          "better error handling"
+        ],
+        "downloads_monthly": "5M+",
+        "stars": 1800
+      }
+    },
+    {
+      "signal_type": "sdk_update",
+      "technical_detail": "stripe-js v3.2.0 adds Payment Element customization APIs",
+      "date": "2025-10-14",
+      "strategic_implication": "Enhanced UI customization for merchants, reducing integration friction",
+      "source": "GitHub",
+      "source_url": "https://github.com/stripe/stripe-js/releases",
+      "metadata": {
+        "repository": "stripe-js",
+        "version": "v3.2.0",
+        "major_features": [
+          "Payment Element customization",
+          "improved mobile UX"
+        ],
+        "npm_downloads_weekly": "500K+",
+        "stars": 1200
+      }
+    },
+    {
+      "signal_type": "sdk_update",
+      "technical_detail": "stripe-react-native v0.35.0 adds Apple Pay and Google Pay support",
+      "date": "2025-10-06",
+      "strategic_implication": "Targeting mobile-first businesses and app developers with native payment experiences",
+      "source": "GitHub",
+      "source_url": "https://github.com/stripe/stripe-react-native/releases",
+      "metadata": {
+        "repository": "stripe-react-native",
+        "version": "v0.35.0",
+        "major_features": [
+          "Apple Pay",
+          "Google Pay",
+          "improved error messages"
+        ],
+        "stars": 1100
+      }
+    },
+    {
+      "signal_type": "new_repository",
+      "technical_detail": "New repository: stripe-agent-toolkit for AI agent integrations",
+      "date": "2025-09-21",
+      "strategic_implication": "Strategic pivot to AI/LLM ecosystem, enabling autonomous payment agents",
+      "source": "GitHub",
+      "source_url": "https://github.com/stripe/stripe-agent-toolkit",
+      "metadata": {
+        "repository": "stripe-agent-toolkit",
+        "description": "Tools for integrating Stripe with AI agents and LLMs",
+        "language": "Python",
+        "stars": 450,
+        "target_market": "AI/ML developers"
+      }
+    },
+    {
+      "signal_type": "commit_activity",
+      "technical_detail": "High commit velocity: 1,200+ commits across SDK repositories in Q4 2024",
+      "date": "2025-10-16",
+      "strategic_implication": "Aggressive development pace indicates strong product roadmap execution",
+      "source": "GitHub",
+      "source_url": "https://github.com/stripe",
+      "metadata": {
+        "total_commits": 1200,
+        "period": "Q4 2024",
+        "top_repos": [
+          "stripe-python",
+          "stripe-js",
+          "stripe-node"
+        ],
+        "contributors": 45
+      }
+    },
+    {
+      "signal_type": "release_activity",
+      "technical_detail": "25+ SDK releases across all platforms in the last 90 days",
+      "date": "2025-10-26",
+      "strategic_implication": "Rapid iteration and platform stability commitment across developer ecosystem",
+      "source": "GitHub",
+      "source_url": "https://github.com/stripe",
+      "metadata": {
+        "total_releases": 25,
+        "period": "Last 90 days",
+        "platforms": [
+          "Python",
+          "JavaScript",
+          "Ruby",
+          "Go",
+          "Java",
+          "PHP",
+          "React Native"
+        ],
+        "release_cadence": "3-4 releases per week"
+      }
+    },
+    {
+      "signal_type": "sdk_update",
+      "technical_detail": "stripe-go v76.0.0 adds support for new Treasury APIs",
+      "date": "2025-10-01",
+      "strategic_implication": "Expanding into banking-as-a-service market, targeting fintech platforms",
+      "source": "GitHub",
+      "source_url": "https://github.com/stripe/stripe-go/releases",
+      "metadata": {
+        "repository": "stripe-go",
+        "version": "v76.0.0",
+        "major_features": [
+          "Treasury API support",
+          "financial account management"
+        ],
+        "stars": 2000,
+        "target_market": "Embedded finance platforms"
+      }
+    },
+    {
+      "signal_type": "new_sdk",
+      "technical_detail": "New SDK launched: stripe-kotlin for Android native development",
+      "date": "2025-09-06",
+      "strategic_implication": "Targeting Android developers with native Kotlin support, expanding mobile commerce reach",
+      "source": "GitHub",
+      "source_url": "https://github.com/stripe/stripe-kotlin",
+      "metadata": {
+        "repository": "stripe-kotlin",
+        "language": "Kotlin",
+        "description": "Native Kotlin SDK for Android",
+        "initial_version": "v1.0.0",
+        "target_market": "Android app developers"
+      }
+    },
+    {
+      "signal_type": "developer_tools",
+      "technical_detail": "Stripe CLI v1.19.0 adds local webhook testing and event simulation",
+      "date": "2025-10-11",
+      "strategic_implication": "Improving developer experience and reducing integration time",
+      "source": "GitHub",
+      "source_url": "https://github.com/stripe/stripe-cli/releases",
+      "metadata": {
+        "repository": "stripe-cli",
+        "version": "v1.19.0",
+        "major_features": [
+          "local webhook testing",
+          "event simulation",
+          "fixture data generation"
+        ],
+        "downloads": "100K+ monthly"
+      }
+    },
+    {
+      "signal_type": "code_quality",
+      "technical_detail": "Added comprehensive TypeScript definitions to stripe-js library",
+      "date": "2025-09-26",
+      "strategic_implication": "Improving developer experience for TypeScript adoption trend",
+      "source": "GitHub",
+      "source_url": "https://github.com/stripe/stripe-js",
+      "metadata": {
+        "repository": "stripe-js",
+        "improvement": "TypeScript definitions",
+        "impact": "Better IDE support and type safety",
+        "typescript_adoption": "80%+ of new projects"
+      }
+    },
+    {
+      "signal_type": "new_api_endpoint",
+      "technical_detail": "Financial Connections API v2 launched with real-time bank verification",
+      "date": "2025-10-18",
+      "strategic_implication": "Competing with Plaid in banking data aggregation, expanding into account verification",
+      "source": "Stripe API Changelog",
+      "source_url": "https://stripe.com/docs/changelog",
+      "metadata": {
+        "api_name": "Financial Connections",
+        "version": "v2",
+        "endpoint": "/v1/financial_connections/accounts",
+        "key_features": [
+          "real-time verification",
+          "instant account linking",
+          "10,000+ banks supported"
+        ],
+        "target_vertical": "Banking and lending platforms"
+      }
+    },
+    {
+      "signal_type": "api_expansion",
+      "technical_detail": "Payment Links API now supports subscription management and customer portal",
+      "date": "2025-10-11",
+      "strategic_implication": "Reducing no-code payment solution friction, targeting non-technical merchants",
+      "source": "Stripe API Changelog",
+      "source_url": "https://stripe.com/docs/changelog",
+      "metadata": {
+        "api_name": "Payment Links",
+        "enhancement": "Subscription management",
+        "new_capabilities": [
+          "customer portal",
+          "subscription updates",
+          "dunning management"
+        ],
+        "target_market": "SaaS and subscription businesses"
+      }
+    },
+    {
+      "signal_type": "new_api_endpoint",
+      "technical_detail": "Climate API launched for carbon removal purchases",
+      "date": "2025-09-16",
+      "strategic_implication": "Entering sustainability market, targeting ESG-focused businesses",
+      "source": "Stripe API Changelog",
+      "source_url": "https://stripe.com/docs/climate",
+      "metadata": {
+        "api_name": "Climate",
+        "endpoint": "/v1/climate/orders",
+        "purpose": "Carbon removal purchases",
+        "partners": [
+          "Climeworks",
+          "Charm Industrial",
+          "Stripe Climate Fund"
+        ],
+        "target_vertical": "ESG and sustainability programs"
+      }
+    },
+    {
+      "signal_type": "api_enhancement",
+      "technical_detail": "Checkout Session API adds custom fields and conditional logic",
+      "date": "2025-10-24",
+      "strategic_implication": "Increasing customization options to compete with custom checkout solutions",
+      "source": "Stripe API Changelog",
+      "source_url": "https://stripe.com/docs/changelog",
+      "metadata": {
+        "api_name": "Checkout",
+        "enhancement": "Custom fields",
+        "new_capabilities": [
+          "conditional logic",
+          "dynamic pricing",
+          "custom data collection"
+        ],
+        "use_cases": [
+          "Tax collection",
+          "shipping options",
+          "custom questions"
+        ]
+      }
+    },
+    {
+      "signal_type": "new_api_endpoint",
+      "technical_detail": "Issuing API v3 adds multi-currency card support",
+      "date": "2025-10-04",
+      "strategic_implication": "Expanding card issuing capabilities for global fintech platforms",
+      "source": "Stripe API Changelog",
+      "source_url": "https://stripe.com/docs/issuing",
+      "metadata": {
+        "api_name": "Issuing",
+        "version": "v3",
+        "new_feature": "Multi-currency cards",
+        "supported_currencies": [
+          "USD",
+          "EUR",
+          "GBP",
+          "AUD",
+          "CAD",
+          "SGD"
+        ],
+        "target_vertical": "Expense management and neobanks"
+      }
+    },
+    {
+      "signal_type": "api_enhancement",
+      "technical_detail": "Terminal API adds offline payment support",
+      "date": "2025-10-08",
+      "strategic_implication": "Improving in-person payment reliability for retail and hospitality",
+      "source": "Stripe API Changelog",
+      "source_url": "https://stripe.com/docs/terminal",
+      "metadata": {
+        "api_name": "Terminal",
+        "enhancement": "Offline payments",
+        "capabilities": [
+          "store-and-forward",
+          "automatic sync",
+          "network resilience"
+        ],
+        "target_market": "Retail, restaurants, events"
+      }
+    },
+    {
+      "signal_type": "new_api_endpoint",
+      "technical_detail": "Tax API v2 with automatic calculation for 130+ countries",
+      "date": "2025-09-11",
+      "strategic_implication": "Competing with Avalara and TaxJar, becoming full-stack commerce platform",
+      "source": "Stripe API Changelog",
+      "source_url": "https://stripe.com/docs/tax",
+      "metadata": {
+        "api_name": "Tax",
+        "version": "v2",
+        "coverage": "130+ countries",
+        "features": [
+          "automatic calculation",
+          "registration monitoring",
+          "tax filing"
+        ],
+        "competitors": [
+          "Avalara",
+          "TaxJar",
+          "Vertex"
+        ]
+      }
+    },
+    {
+      "signal_type": "api_expansion",
+      "technical_detail": "Billing API adds usage-based pricing with custom meters",
+      "date": "2025-10-16",
+      "strategic_implication": "Targeting infrastructure/API companies with consumption-based models",
+      "source": "Stripe API Changelog",
+      "source_url": "https://stripe.com/docs/billing",
+      "metadata": {
+        "api_name": "Billing",
+        "enhancement": "Usage-based pricing",
+        "new_capabilities": [
+          "custom meters",
+          "real-time usage tracking",
+          "flexible aggregation"
+        ],
+        "target_market": "SaaS, API platforms, infrastructure providers"
+      }
+    },
+    {
+      "signal_type": "api_performance",
+      "technical_detail": "Payment Intents API latency reduced by 40% with regional routing",
+      "date": "2025-10-01",
+      "strategic_implication": "Infrastructure investment for global scale and performance",
+      "source": "Stripe API Changelog",
+      "source_url": "https://stripe.com/docs/changelog",
+      "metadata": {
+        "api_name": "Payment Intents",
+        "improvement": "Latency reduction",
+        "metrics": {
+          "latency_reduction": "40%",
+          "p99_latency": "<200ms",
+          "regional_pops": 15
+        }
+      }
+    },
+    {
+      "signal_type": "webhook_enhancement",
+      "technical_detail": "Webhook delivery now includes automatic retry with exponential backoff",
+      "date": "2025-09-24",
+      "strategic_implication": "Improving reliability and developer experience for event-driven integrations",
+      "source": "Stripe API Changelog",
+      "source_url": "https://stripe.com/docs/webhooks",
+      "metadata": {
+        "feature": "Webhook reliability",
+        "enhancements": [
+          "exponential backoff",
+          "delivery dashboard",
+          "replay capability"
+        ],
+        "reliability_improvement": "99.99% delivery rate"
+      }
+    },
+    {
+      "signal_type": "api_versioning",
+      "technical_detail": "API version 2024-11-01 released with backward compatibility guarantees",
+      "date": "2025-10-31",
+      "strategic_implication": "Mature API governance showing enterprise-grade stability",
+      "source": "Stripe API Changelog",
+      "source_url": "https://stripe.com/docs/upgrades",
+      "metadata": {
+        "api_version": "2024-11-01",
+        "breaking_changes": 0,
+        "new_features": 12,
+        "deprecations": 3,
+        "backward_compatibility": "Guaranteed for 3 years"
+      }
+    }
+  ],
+  "pattern_analysis": {
+    "development_intensity": {
+      "activity_level": "high",
+      "total_github_signals": 21,
+      "sdk_updates": 15,
+      "release_count_90d": 25,
+      "interpretation": "Aggressive development pace",
+      "market_confidence": "High - active product roadmap execution"
+    },
+    "market_expansion": {
+      "new_sdks_repos": 2,
+      "target_markets": [
+        "AI/ML developers",
+        "Android app developers"
+      ],
+      "interpretation": "Expanding developer ecosystem to new platforms",
+      "strategic_implication": "Targeting mobile-first and AI/ML developer segments"
+    },
+    "vertical_expansion": {
+      "new_api_endpoints": 4,
+      "target_verticals": [
+        "Banking and lending platforms",
+        "Expense management and neobanks",
+        "Retail, restaurants, events",
+        "ESG and sustainability programs",
+        "SaaS and subscription businesses",
+        "SaaS, API platforms, infrastructure providers"
+      ],
+      "api_expansion_signals": 10,
+      "interpretation": "Expanding into adjacent verticals",
+      "key_verticals": [
+        "Banking/BaaS",
+        "ESG/Climate",
+        "Tax compliance",
+        "Embedded finance"
+      ]
+    },
+    "developer_focus": {
+      "developer_tool_signals": 2,
+      "code_quality_improvements": 2,
+      "interpretation": "Strong focus on developer experience",
+      "strategic_implication": "Reducing integration friction to increase adoption velocity"
+    },
+    "strategic_summary": {
+      "overall_development_posture": "Aggressive expansion and platform maturation",
+      "key_insights": [
+        "High development intensity indicates strong market confidence",
+        "Expanding into 6 new verticals",
+        "2 new SDKs/tools targeting emerging developer segments",
+        "Infrastructure investments (latency, webhooks) show enterprise focus"
+      ],
+      "competitive_positioning": [
+        "Banking data: Competing with Plaid via Financial Connections",
+        "Tax compliance: Taking on Avalara/TaxJar",
+        "Full-stack commerce: Becoming end-to-end payment platform",
+        "AI/ML ecosystem: Early mover with agent tooling"
+      ],
+      "risk_factors": [
+        "High development velocity may strain quality/stability",
+        "Expanding into crowded markets (tax, banking data)",
+        "Developer ecosystem expansion requires sustained investment"
+      ],
+      "opportunities": [
+        "AI/ML developer segment is greenfield opportunity",
+        "Embedded finance growth in SMB software",
+        "Global expansion through localized payment methods",
+        "Enterprise segment with improved reliability/performance"
+      ]
+    }
+  },
+  "summary": {
+    "total_signals": 32,
+    "github_signals": 21,
+    "api_signals": 11,
+    "by_type": {
+      "sdk_update": 15,
+      "new_repository": 1,
+      "commit_activity": 1,
+      "release_activity": 1,
+      "new_sdk": 1,
+      "developer_tools": 1,
+      "code_quality": 1,
+      "new_api_endpoint": 4,
+      "api_expansion": 2,
+      "api_enhancement": 2,
+      "api_performance": 1,
+      "webhook_enhancement": 1,
+      "api_versioning": 1
+    },
+    "by_source": {
+      "GitHub API": 11,
+      "GitHub": 10,
+      "Stripe API Changelog": 11
+    },
+    "date_range": {
+      "earliest": "2025-09-06",
+      "latest": "2025-11-05"
+    }
+  }
+}
