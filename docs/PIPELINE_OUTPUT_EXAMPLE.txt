@@ -1,0 +1,126 @@
+GTM INTELLIGENCE PLATFORM - EXAMPLE OUTPUT
+===========================================
+
+This document shows the expected output when running: python main_gtm.py
+
+================================================================================
+GTM INTELLIGENCE PLATFORM - STRIPE
+================================================================================
+Started: 2025-11-05 20:30:15
+
+STEP 1: DATA COLLECTION
+--------------------------------------------------------------------------------
+Collecting news articles... ✓ Collected 8 news articles
+Collecting business intelligence... ✓ Collected 2 LinkedIn signals
+Collecting GitHub signals... ✓ Collected 12 GitHub signals
+
+Total raw signals collected: 22
+
+STEP 2: SIGNAL AGGREGATION
+--------------------------------------------------------------------------------
+Aggregating signals... ✓ Aggregated 20 unique signals from 3 sources
+  (Removed 2 duplicate signals)
+
+STEP 3: GTM CLASSIFICATION
+--------------------------------------------------------------------------------
+Classifying signals into GTM dimensions... ✓ Classified 20 signals into GTM dimensions
+  Category breakdown:
+    - PRODUCT: 16 signals
+    - TALENT: 2 signals
+    - MARKET: 1 signals
+    - TIMING: 1 signals
+
+STEP 4: INSIGHT GENERATION
+--------------------------------------------------------------------------------
+Generating GTM insights... ✓ Generated 10 GTM insights
+  (7 category-specific + 3 cross-category)
+Generating executive summary... ✓ Generated executive summary (769 words)
+
+STEP 5: EXPORT RESULTS
+--------------------------------------------------------------------------------
+Exporting to CSV and JSON... ✓ Exported to data/
+  - Signals CSV: gtm_signals.csv
+  - Insights CSV: gtm_insights.csv
+  - Full JSON: gtm_analysis_full.json
+
+STEP 6: GENERATE MARKDOWN REPORT
+--------------------------------------------------------------------------------
+Generating markdown report... ✓ Generated GTM_ANALYSIS_STRIPE.md (1084 words)
+
+================================================================================
+EXECUTION SUMMARY
+================================================================================
+
+Total signals analyzed: 20
+Insights generated: 10
+Execution time: 12.3 seconds
+
+Key Findings:
+  1. [PRODUCT] High product development velocity detected: 16 product signals, 16 high-confidence
+  2. [TALENT] Aggressive hiring detected: 100+ open positions across 1 signals
+  3. [PRODUCT] Product roadmap focus areas: APIs, Developer Tools, Terminal, SDKs
+  4. [STRATEGIC] Multi-dimensional GTM approach recommended targeting identified gaps
+  5. [TALENT] Organizational strength: ~12,538 employees with strong resources
+
+Primary Recommendation:
+  Strategic direction: Large-scale hiring suggests preparation for major initiatives. 
+  Monitor department-level hiring to identify strategic priorities (eng = product, 
+  sales = market expansion).
+
+Generated Files:
+  - Markdown Report: outputs/reports/GTM_ANALYSIS_STRIPE.md
+  - CSV Exports: data/
+  - Full JSON: data/gtm_analysis_full.json
+
+================================================================================
+✓ PIPELINE EXECUTION COMPLETE
+================================================================================
+
+
+ERROR HANDLING EXAMPLE
+=======================
+
+If a step fails, the pipeline continues and reports errors:
+
+STEP 1: DATA COLLECTION
+--------------------------------------------------------------------------------
+Collecting news articles... ✗ News collection failed: API key not found
+Collecting business intelligence... ✓ Collected 2 LinkedIn signals
+Collecting GitHub signals... ✓ Collected 12 GitHub signals
+
+Total raw signals collected: 14
+
+[Pipeline continues...]
+
+⚠️  Warnings/Errors: 1
+  - News collection failed: API key not found
+
+
+USAGE INSTRUCTIONS
+==================
+
+1. Basic execution:
+   python main_gtm.py
+
+2. The pipeline will:
+   - Collect data from all configured sources
+   - Aggregate and deduplicate signals
+   - Classify into 7 GTM dimensions
+   - Generate strategic insights
+   - Export to multiple formats
+   - Create executive markdown report
+
+3. Output locations:
+   - Markdown Report: outputs/reports/GTM_ANALYSIS_STRIPE.md
+   - CSV Files: data/gtm_signals.csv, data/gtm_insights.csv
+   - JSON File: data/gtm_analysis_full.json
+   - Execution Log: gtm_pipeline.log
+
+4. Expected execution time:
+   - With all collectors: 30-60 seconds
+   - Processing only (existing data): 10-20 seconds
+
+5. Requirements:
+   - Python 3.8+
+   - All dependencies installed
+   - API keys configured (optional, gracefully handles missing collectors)
