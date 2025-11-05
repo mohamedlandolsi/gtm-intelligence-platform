@@ -41,9 +41,12 @@ sys.path.insert(0, str(project_root))
 
 # Import all pipeline modules
 try:
-    from collectors.news_collector import collect_news_signals
-    from collectors.crunchbase_linkedin_collector import collect_business_intelligence
-    from collectors.github_signals_collector import collect_github_signals
+    # Import data collectors from data_sources directory
+    from data_sources.stripe_news_module import collect_stripe_news
+    from data_sources.stripe_business_intelligence import collect_stripe_intelligence
+    from data_sources.stripe_technical_signals import collect_technical_signals
+    
+    # Import processing modules
     from processing.signal_aggregator import aggregate_market_signals
     from processing.gtm_classifier import classify_gtm_signals
     from processing.gtm_insights_generator import generate_gtm_insights, generate_executive_summary
@@ -173,7 +176,8 @@ class GTMPipeline:
         # Collect news signals
         try:
             print("Collecting news articles...", end=" ", flush=True)
-            news_signals = collect_news_signals(company_name=self.company_name)
+            news_data = collect_stripe_news()
+            news_signals = news_data.get('signals', [])
             self.stats['news_signals'] = len(news_signals)
             all_signals.extend(news_signals)
             print(f"✓ Collected {len(news_signals)} news articles")
@@ -183,19 +187,19 @@ class GTMPipeline:
             self.errors.append(error_msg)
             print(f"✗ News collection failed: {e}")
         
-        # Collect business intelligence (Crunchbase + LinkedIn)
+        # Collect business intelligence (LinkedIn)
         try:
             print("Collecting business intelligence...", end=" ", flush=True)
-            business_signals = collect_business_intelligence(company_name=self.company_name)
-            # Separate LinkedIn and Crunchbase counts
+            business_data = collect_stripe_intelligence()
+            business_signals = business_data.get('signals', [])
+            # Count LinkedIn signals
             linkedin_count = len([s for s in business_signals if s.get('source') == 'LinkedIn'])
-            crunchbase_count = len([s for s in business_signals if s.get('source') == 'Crunchbase'])
             self.stats['linkedin_signals'] = linkedin_count
-            self.stats['crunchbase_signals'] = crunchbase_count
+            self.stats['crunchbase_signals'] = len(business_signals) - linkedin_count
             all_signals.extend(business_signals)
             print(f"✓ Collected {linkedin_count} LinkedIn signals")
-            if crunchbase_count > 0:
-                print(f"✓ Collected {crunchbase_count} Crunchbase signals")
+            if self.stats['crunchbase_signals'] > 0:
+                print(f"✓ Collected {self.stats['crunchbase_signals']} Crunchbase signals")
         except Exception as e:
             error_msg = f"Business intelligence collection failed: {e}"
             logger.error(error_msg)
@@ -205,7 +209,8 @@ class GTMPipeline:
         # Collect GitHub signals
         try:
             print("Collecting GitHub signals...", end=" ", flush=True)
-            github_signals = collect_github_signals(company_name=self.company_name)
+            github_data = collect_technical_signals()
+            github_signals = github_data.get('signals', [])
             self.stats['github_signals'] = len(github_signals)
             all_signals.extend(github_signals)
             print(f"✓ Collected {len(github_signals)} GitHub signals")
