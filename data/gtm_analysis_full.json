@@ -1,60 +1,55 @@
 {
   "metadata": {
-    "export_date": "2025-11-05T20:20:20.095965",
+    "export_date": "2025-11-06T21:38:36.019800",
     "export_version": "1.0.0",
     "platform": "GTM Intelligence Platform",
-    "total_signals": 20,
-    "total_insights": 7
+    "total_signals": 15,
+    "total_insights": 6
   },
   "summary": {
     "date_range": {
-      "start": "2025-09-21",
+      "start": "2025-10-06",
       "end": "2025-11-05"
     },
     "signal_breakdown": {
-      "total": 20,
-      "high_confidence": 20,
+      "total": 15,
+      "high_confidence": 15,
       "categories": [
-        "PRODUCT",
         "TIMING",
-        "MARKET",
+        "PRODUCT",
         "TALENT"
       ],
       "sources": {
         "LinkedIn": 2,
-        "GitHub": 12,
-        "Stripe Official": 6
+        "GitHub": 9,
+        "Stripe Official": 4
       },
       "signal_types": {
         "growth": 1,
         "hiring": 1,
-        "sdk_update": 8,
+        "sdk_update": 7,
         "api_versioning": 1,
-        "new_api_endpoint": 2,
+        "new_api_endpoint": 1,
         "commit_activity": 1,
         "api_expansion": 1,
         "developer_tools": 1,
-        "api_enhancement": 1,
-        "code_quality": 1,
-        "webhook_enhancement": 1,
-        "new_repository": 1
+        "api_enhancement": 1
       }
     },
     "insight_breakdown": {
-      "total": 7,
+      "total": 6,
       "categories": [
         "TALENT",
         "PRODUCT",
-        "TIMING",
-        "MARKET"
+        "TIMING"
       ],
       "high_confidence": 5,
       "cross_category": 3
     },
-    "strategic_summary": "Strategic picture: High product development activity (16 signals), market tailwinds present, organizational expansion (2 hiring signals). Recommend multi-dimensional GTM approach targeting identified gaps and vulnerabilities."
+    "strategic_summary": "Strategic picture: High product development activity (12 signals), organizational expansion (2 hiring signals). Recommend multi-dimensional GTM approach targeting identified gaps and vulnerabilities."
   },
   "signals": {
-    "total": 20,
+    "total": 15,
     "data": [
       {
         "signal_id": "SIG-20251105-C868E4B1",
@@ -653,204 +648,6 @@
           "TALENT": 0.05714285714285714
         },
         "gtm_insights": "Primary GTM dimension: PRODUCT (confidence: medium) This signal concerns product development, features, or technical capabilities. Also relevant to: TIMING GTM Action: Prepare product marketing collateral and technical documentation."
-      },
-      {
-        "signal_id": "SIG-20251004-998FF60E",
-        "signal_type": "new_api_endpoint",
-        "headline": "Signal",
-        "description": "Issuing API v3 adds multi-currency card support",
-        "date_detected": "2025-10-04",
-        "source": "Stripe Official",
-        "source_url": "https://stripe.com/docs/issuing",
-        "confidence_level": "high",
-        "raw_json": {
-          "signal_type": "new_api_endpoint",
-          "technical_detail": "Issuing API v3 adds multi-currency card support",
-          "date": "2025-10-04",
-          "strategic_implication": "Expanding card issuing capabilities for global fintech platforms",
-          "source": "Stripe API Changelog",
-          "source_url": "https://stripe.com/docs/issuing",
-          "metadata": {
-            "api_name": "Issuing",
-            "version": "v3",
-            "new_feature": "Multi-currency cards",
-            "supported_currencies": [
-              "USD",
-              "EUR",
-              "GBP",
-              "AUD",
-              "CAD",
-              "SGD"
-            ],
-            "target_vertical": "Expense management and neobanks"
-          }
-        },
-        "primary_category": "PRODUCT",
-        "secondary_categories": [],
-        "category_scores": {
-          "TIMING": 0.0,
-          "MESSAGING": 0.06896551724137931,
-          "ICP": 0.0,
-          "COMPETITIVE": 0.0,
-          "PRODUCT": 0.37142857142857144,
-          "MARKET": 0.0,
-          "TALENT": 0.0
-        },
-        "gtm_insights": "Primary GTM dimension: PRODUCT (confidence: low) This signal concerns product development, features, or technical capabilities. GTM Action: Prepare product marketing collateral and technical documentation."
-      },
-      {
-        "signal_id": "SIG-20251001-5F43D70B",
-        "signal_type": "sdk_update",
-        "headline": "stripe-go v76.0.0 adds support for new Treasury APIs",
-        "description": "stripe-go v76.0.0 adds support for new Treasury APIs\n\nStrategic Implication: Expanding into banking-as-a-service market, targeting fintech platforms\nVersion: v76.0.0",
-        "date_detected": "2025-10-01",
-        "source": "GitHub",
-        "source_url": "https://github.com/stripe/stripe-go/releases",
-        "confidence_level": "high",
-        "raw_json": {
-          "signal_type": "sdk_update",
-          "technical_detail": "stripe-go v76.0.0 adds support for new Treasury APIs",
-          "date": "2025-10-01",
-          "strategic_implication": "Expanding into banking-as-a-service market, targeting fintech platforms",
-          "source": "GitHub",
-          "source_url": "https://github.com/stripe/stripe-go/releases",
-          "metadata": {
-            "repository": "stripe-go",
-            "version": "v76.0.0",
-            "major_features": [
-              "Treasury API support",
-              "financial account management"
-            ],
-            "stars": 2000,
-            "target_market": "Embedded finance platforms"
-          }
-        },
-        "primary_category": "PRODUCT",
-        "secondary_categories": [
-          "TIMING"
-        ],
-        "category_scores": {
-          "TIMING": 0.3,
-          "MESSAGING": 0.06896551724137931,
-          "ICP": 0.13793103448275862,
-          "COMPETITIVE": 0.0,
-          "PRODUCT": 0.8357142857142856,
-          "MARKET": 0.06451612903225806,
-          "TALENT": 0.0
-        },
-        "gtm_insights": "Primary GTM dimension: PRODUCT (confidence: high) This signal concerns product development, features, or technical capabilities. Also relevant to: TIMING GTM Action: Prepare product marketing collateral and technical documentation."
-      },
-      {
-        "signal_id": "SIG-20250926-0893FA28",
-        "signal_type": "code_quality",
-        "headline": "Added comprehensive TypeScript definitions to stripe-js library",
-        "description": "Added comprehensive TypeScript definitions to stripe-js library\n\nStrategic Implication: Improving developer experience for TypeScript adoption trend",
-        "date_detected": "2025-09-26",
-        "source": "GitHub",
-        "source_url": "https://github.com/stripe/stripe-js",
-        "confidence_level": "high",
-        "raw_json": {
-          "signal_type": "code_quality",
-          "technical_detail": "Added comprehensive TypeScript definitions to stripe-js library",
-          "date": "2025-09-26",
-          "strategic_implication": "Improving developer experience for TypeScript adoption trend",
-          "source": "GitHub",
-          "source_url": "https://github.com/stripe/stripe-js",
-          "metadata": {
-            "repository": "stripe-js",
-            "improvement": "TypeScript definitions",
-            "impact": "Better IDE support and type safety",
-            "typescript_adoption": "80%+ of new projects"
-          }
-        },
-        "primary_category": "MARKET",
-        "secondary_categories": [],
-        "category_scores": {
-          "TIMING": 0.0,
-          "MESSAGING": 0.0,
-          "ICP": 0.06896551724137931,
-          "COMPETITIVE": 0.0,
-          "PRODUCT": 0.19642857142857142,
-          "MARKET": 0.2540322580645161,
-          "TALENT": 0.05714285714285714
-        },
-        "gtm_insights": "Primary GTM dimension: MARKET (confidence: low) This signal reflects broader market trends and industry dynamics. GTM Action: Adjust market strategy and consider new opportunities."
-      },
-      {
-        "signal_id": "SIG-20250924-D776CE62",
-        "signal_type": "webhook_enhancement",
-        "headline": "Signal",
-        "description": "Webhook delivery now includes automatic retry with exponential backoff",
-        "date_detected": "2025-09-24",
-        "source": "Stripe Official",
-        "source_url": "https://stripe.com/docs/webhooks",
-        "confidence_level": "high",
-        "raw_json": {
-          "signal_type": "webhook_enhancement",
-          "technical_detail": "Webhook delivery now includes automatic retry with exponential backoff",
-          "date": "2025-09-24",
-          "strategic_implication": "Improving reliability and developer experience for event-driven integrations",
-          "source": "Stripe API Changelog",
-          "source_url": "https://stripe.com/docs/webhooks",
-          "metadata": {
-            "feature": "Webhook reliability",
-            "enhancements": [
-              "exponential backoff",
-              "delivery dashboard",
-              "replay capability"
-            ],
-            "reliability_improvement": "99.99% delivery rate"
-          }
-        },
-        "primary_category": "PRODUCT",
-        "secondary_categories": [],
-        "category_scores": {
-          "TIMING": 0.0,
-          "MESSAGING": 0.0,
-          "ICP": 0.0,
-          "COMPETITIVE": 0.0,
-          "PRODUCT": 0.0,
-          "MARKET": 0.0,
-          "TALENT": 0.0
-        },
-        "gtm_insights": "Primary GTM dimension: PRODUCT (confidence: low) This signal concerns product development, features, or technical capabilities. GTM Action: Prepare product marketing collateral and technical documentation."
-      },
-      {
-        "signal_id": "SIG-20250921-3A978DFA",
-        "signal_type": "new_repository",
-        "headline": "New repository: stripe-agent-toolkit for AI agent integrations",
-        "description": "New repository: stripe-agent-toolkit for AI agent integrations\n\nStrategic Implication: Strategic pivot to AI/LLM ecosystem, enabling autonomous payment agents",
-        "date_detected": "2025-09-21",
-        "source": "GitHub",
-        "source_url": "https://github.com/stripe/stripe-agent-toolkit",
-        "confidence_level": "high",
-        "raw_json": {
-          "signal_type": "new_repository",
-          "technical_detail": "New repository: stripe-agent-toolkit for AI agent integrations",
-          "date": "2025-09-21",
-          "strategic_implication": "Strategic pivot to AI/LLM ecosystem, enabling autonomous payment agents",
-          "source": "GitHub",
-          "source_url": "https://github.com/stripe/stripe-agent-toolkit",
-          "metadata": {
-            "repository": "stripe-agent-toolkit",
-            "description": "Tools for integrating Stripe with AI agents and LLMs",
-            "language": "Python",
-            "stars": 450,
-            "target_market": "AI/ML developers"
-          }
-        },
-        "primary_category": "PRODUCT",
-        "secondary_categories": [],
-        "category_scores": {
-          "TIMING": 0.0,
-          "MESSAGING": 0.0,
-          "ICP": 0.0,
-          "COMPETITIVE": 0.0,
-          "PRODUCT": 0.5678571428571428,
-          "MARKET": 0.0,
-          "TALENT": 0.0
-        },
-        "gtm_insights": "Primary GTM dimension: PRODUCT (confidence: medium) This signal concerns product development, features, or technical capabilities. GTM Action: Prepare product marketing collateral and technical documentation."
       }
     ],
     "by_category": {
@@ -1415,168 +1212,6 @@
             "TALENT": 0.05714285714285714
           },
           "gtm_insights": "Primary GTM dimension: PRODUCT (confidence: medium) This signal concerns product development, features, or technical capabilities. Also relevant to: TIMING GTM Action: Prepare product marketing collateral and technical documentation."
-        },
-        {
-          "signal_id": "SIG-20251004-998FF60E",
-          "signal_type": "new_api_endpoint",
-          "headline": "Signal",
-          "description": "Issuing API v3 adds multi-currency card support",
-          "date_detected": "2025-10-04",
-          "source": "Stripe Official",
-          "source_url": "https://stripe.com/docs/issuing",
-          "confidence_level": "high",
-          "raw_json": {
-            "signal_type": "new_api_endpoint",
-            "technical_detail": "Issuing API v3 adds multi-currency card support",
-            "date": "2025-10-04",
-            "strategic_implication": "Expanding card issuing capabilities for global fintech platforms",
-            "source": "Stripe API Changelog",
-            "source_url": "https://stripe.com/docs/issuing",
-            "metadata": {
-              "api_name": "Issuing",
-              "version": "v3",
-              "new_feature": "Multi-currency cards",
-              "supported_currencies": [
-                "USD",
-                "EUR",
-                "GBP",
-                "AUD",
-                "CAD",
-                "SGD"
-              ],
-              "target_vertical": "Expense management and neobanks"
-            }
-          },
-          "primary_category": "PRODUCT",
-          "secondary_categories": [],
-          "category_scores": {
-            "TIMING": 0.0,
-            "MESSAGING": 0.06896551724137931,
-            "ICP": 0.0,
-            "COMPETITIVE": 0.0,
-            "PRODUCT": 0.37142857142857144,
-            "MARKET": 0.0,
-            "TALENT": 0.0
-          },
-          "gtm_insights": "Primary GTM dimension: PRODUCT (confidence: low) This signal concerns product development, features, or technical capabilities. GTM Action: Prepare product marketing collateral and technical documentation."
-        },
-        {
-          "signal_id": "SIG-20251001-5F43D70B",
-          "signal_type": "sdk_update",
-          "headline": "stripe-go v76.0.0 adds support for new Treasury APIs",
-          "description": "stripe-go v76.0.0 adds support for new Treasury APIs\n\nStrategic Implication: Expanding into banking-as-a-service market, targeting fintech platforms\nVersion: v76.0.0",
-          "date_detected": "2025-10-01",
-          "source": "GitHub",
-          "source_url": "https://github.com/stripe/stripe-go/releases",
-          "confidence_level": "high",
-          "raw_json": {
-            "signal_type": "sdk_update",
-            "technical_detail": "stripe-go v76.0.0 adds support for new Treasury APIs",
-            "date": "2025-10-01",
-            "strategic_implication": "Expanding into banking-as-a-service market, targeting fintech platforms",
-            "source": "GitHub",
-            "source_url": "https://github.com/stripe/stripe-go/releases",
-            "metadata": {
-              "repository": "stripe-go",
-              "version": "v76.0.0",
-              "major_features": [
-                "Treasury API support",
-                "financial account management"
-              ],
-              "stars": 2000,
-              "target_market": "Embedded finance platforms"
-            }
-          },
-          "primary_category": "PRODUCT",
-          "secondary_categories": [
-            "TIMING"
-          ],
-          "category_scores": {
-            "TIMING": 0.3,
-            "MESSAGING": 0.06896551724137931,
-            "ICP": 0.13793103448275862,
-            "COMPETITIVE": 0.0,
-            "PRODUCT": 0.8357142857142856,
-            "MARKET": 0.06451612903225806,
-            "TALENT": 0.0
-          },
-          "gtm_insights": "Primary GTM dimension: PRODUCT (confidence: high) This signal concerns product development, features, or technical capabilities. Also relevant to: TIMING GTM Action: Prepare product marketing collateral and technical documentation."
-        },
-        {
-          "signal_id": "SIG-20250924-D776CE62",
-          "signal_type": "webhook_enhancement",
-          "headline": "Signal",
-          "description": "Webhook delivery now includes automatic retry with exponential backoff",
-          "date_detected": "2025-09-24",
-          "source": "Stripe Official",
-          "source_url": "https://stripe.com/docs/webhooks",
-          "confidence_level": "high",
-          "raw_json": {
-            "signal_type": "webhook_enhancement",
-            "technical_detail": "Webhook delivery now includes automatic retry with exponential backoff",
-            "date": "2025-09-24",
-            "strategic_implication": "Improving reliability and developer experience for event-driven integrations",
-            "source": "Stripe API Changelog",
-            "source_url": "https://stripe.com/docs/webhooks",
-            "metadata": {
-              "feature": "Webhook reliability",
-              "enhancements": [
-                "exponential backoff",
-                "delivery dashboard",
-                "replay capability"
-              ],
-              "reliability_improvement": "99.99% delivery rate"
-            }
-          },
-          "primary_category": "PRODUCT",
-          "secondary_categories": [],
-          "category_scores": {
-            "TIMING": 0.0,
-            "MESSAGING": 0.0,
-            "ICP": 0.0,
-            "COMPETITIVE": 0.0,
-            "PRODUCT": 0.0,
-            "MARKET": 0.0,
-            "TALENT": 0.0
-          },
-          "gtm_insights": "Primary GTM dimension: PRODUCT (confidence: low) This signal concerns product development, features, or technical capabilities. GTM Action: Prepare product marketing collateral and technical documentation."
-        },
-        {
-          "signal_id": "SIG-20250921-3A978DFA",
-          "signal_type": "new_repository",
-          "headline": "New repository: stripe-agent-toolkit for AI agent integrations",
-          "description": "New repository: stripe-agent-toolkit for AI agent integrations\n\nStrategic Implication: Strategic pivot to AI/LLM ecosystem, enabling autonomous payment agents",
-          "date_detected": "2025-09-21",
-          "source": "GitHub",
-          "source_url": "https://github.com/stripe/stripe-agent-toolkit",
-          "confidence_level": "high",
-          "raw_json": {
-            "signal_type": "new_repository",
-            "technical_detail": "New repository: stripe-agent-toolkit for AI agent integrations",
-            "date": "2025-09-21",
-            "strategic_implication": "Strategic pivot to AI/LLM ecosystem, enabling autonomous payment agents",
-            "source": "GitHub",
-            "source_url": "https://github.com/stripe/stripe-agent-toolkit",
-            "metadata": {
-              "repository": "stripe-agent-toolkit",
-              "description": "Tools for integrating Stripe with AI agents and LLMs",
-              "language": "Python",
-              "stars": 450,
-              "target_market": "AI/ML developers"
-            }
-          },
-          "primary_category": "PRODUCT",
-          "secondary_categories": [],
-          "category_scores": {
-            "TIMING": 0.0,
-            "MESSAGING": 0.0,
-            "ICP": 0.0,
-            "COMPETITIVE": 0.0,
-            "PRODUCT": 0.5678571428571428,
-            "MARKET": 0.0,
-            "TALENT": 0.0
-          },
-          "gtm_insights": "Primary GTM dimension: PRODUCT (confidence: medium) This signal concerns product development, features, or technical capabilities. GTM Action: Prepare product marketing collateral and technical documentation."
         }
       ],
       "TIMING": [
@@ -1619,57 +1254,19 @@
           },
           "gtm_insights": "Primary GTM dimension: TIMING (confidence: medium) This signal indicates a specific timing opportunity or launch window. Also relevant to: PRODUCT GTM Action: Monitor launch windows and adjust campaign timing accordingly."
         }
-      ],
-      "MARKET": [
-        {
-          "signal_id": "SIG-20250926-0893FA28",
-          "signal_type": "code_quality",
-          "headline": "Added comprehensive TypeScript definitions to stripe-js library",
-          "description": "Added comprehensive TypeScript definitions to stripe-js library\n\nStrategic Implication: Improving developer experience for TypeScript adoption trend",
-          "date_detected": "2025-09-26",
-          "source": "GitHub",
-          "source_url": "https://github.com/stripe/stripe-js",
-          "confidence_level": "high",
-          "raw_json": {
-            "signal_type": "code_quality",
-            "technical_detail": "Added comprehensive TypeScript definitions to stripe-js library",
-            "date": "2025-09-26",
-            "strategic_implication": "Improving developer experience for TypeScript adoption trend",
-            "source": "GitHub",
-            "source_url": "https://github.com/stripe/stripe-js",
-            "metadata": {
-              "repository": "stripe-js",
-              "improvement": "TypeScript definitions",
-              "impact": "Better IDE support and type safety",
-              "typescript_adoption": "80%+ of new projects"
-            }
-          },
-          "primary_category": "MARKET",
-          "secondary_categories": [],
-          "category_scores": {
-            "TIMING": 0.0,
-            "MESSAGING": 0.0,
-            "ICP": 0.06896551724137931,
-            "COMPETITIVE": 0.0,
-            "PRODUCT": 0.19642857142857142,
-            "MARKET": 0.2540322580645161,
-            "TALENT": 0.05714285714285714
-          },
-          "gtm_insights": "Primary GTM dimension: MARKET (confidence: low) This signal reflects broader market trends and industry dynamics. GTM Action: Adjust market strategy and consider new opportunities."
-        }
       ]
     },
     "by_source": {
       "LinkedIn": 2,
-      "GitHub": 12,
-      "Stripe Official": 6
+      "GitHub": 9,
+      "Stripe Official": 4
     },
     "by_confidence": {
-      "high": 20
+      "high": 15
     }
   },
   "insights": {
-    "total": 7,
+    "total": 6,
     "by_category": {
       "TALENT": {
         "category": "TALENT",
@@ -1696,10 +1293,10 @@
       },
       "PRODUCT": {
         "category": "PRODUCT",
-        "total_signals": 16,
+        "total_signals": 12,
         "insights": [
           {
-            "insight_text": "High product development velocity detected: 16 product signals, 16 high-confidence. Stripe is in aggressive build mode.",
+            "insight_text": "High product development velocity detected: 12 product signals, 12 high-confidence. Stripe is in aggressive build mode.",
             "supporting_signals": [
               "stripe-android repository actively maintained",
               "stripe-python repository actively maintained",
@@ -1709,7 +1306,7 @@
             "recommended_action": "Expect rapid feature releases. Prioritize parity on core features while identifying areas where Stripe is over-investing (potential gaps to exploit)."
           },
           {
-            "insight_text": "Product roadmap focus areas: APIs, Developer Tools, Terminal, SDKs, Payment Processing. Primary investment in APIs.",
+            "insight_text": "Product roadmap focus areas: Developer Tools, Terminal, SDKs, APIs, Payment Processing. Primary investment in Developer Tools.",
             "supporting_signals": [
               "stripe-android repository actively maintained",
               "stripe-python repository actively maintained",
@@ -1720,7 +1317,7 @@
             "recommended_action": "Product gaps to exploit: Areas NOT in their roadmap - Fraud Prevention, Analytics, Reporting. Consider building differentiated capabilities in these gaps."
           },
           {
-            "insight_text": "Rapid release cadence: 10 version updates detected. Suggests strong engineering velocity and continuous deployment.",
+            "insight_text": "Rapid release cadence: 9 version updates detected. Suggests strong engineering velocity and continuous deployment.",
             "supporting_signals": [
               "stripe-android repository actively maintained",
               "stripe-python repository actively maintained",
@@ -1730,7 +1327,7 @@
             "recommended_action": "Match release velocity with quality. Emphasize stability and reliability as counter to Stripe's rapid iteration (which may introduce bugs)."
           }
         ],
-        "summary": "Product analysis reveals roadmap direction and development velocity from 16 signals."
+        "summary": "Product analysis reveals roadmap direction and development velocity from 12 signals."
       },
       "TIMING": {
         "category": "TIMING",
@@ -1746,26 +1343,11 @@
           }
         ],
         "summary": "Analysis of 1 timing signals reveals launch windows and seasonal patterns."
-      },
-      "MARKET": {
-        "category": "MARKET",
-        "total_signals": 1,
-        "insights": [
-          {
-            "insight_text": "Market tailwinds identified: 1 positive market signals. Strong market momentum supporting growth.",
-            "supporting_signals": [
-              "Added comprehensive TypeScript definitions to stripe-js library"
-            ],
-            "confidence_level": "high",
-            "recommended_action": "Capitalize on market tailwinds with aggressive marketing. Market conditions favor expansion and customer acquisition."
-          }
-        ],
-        "summary": "Market analysis identifies tailwinds, headwinds, and growth opportunities from 1 signals."
       }
     },
     "cross_category": [
       {
-        "insight_text": "High interconnection: 11 of 20 signals (55%) span multiple GTM dimensions. Indicates complex strategic initiatives.",
+        "insight_text": "High interconnection: 10 of 15 signals (66%) span multiple GTM dimensions. Indicates complex strategic initiatives.",
         "supporting_signals": [
           "Stripe is actively hiring for 150+ open positions globally",
           "stripe-android repository actively maintained",
@@ -1775,7 +1357,7 @@
         "recommended_action": "Integrated GTM approach required. Single-dimension strategies will miss key connections. Coordinate across product, marketing, and sales for holistic response."
       },
       {
-        "insight_text": "Product launch cycle detected: 9 signals combine PRODUCT + TIMING. Stripe is in active launch mode with coordinated releases.",
+        "insight_text": "Product launch cycle detected: 8 signals combine PRODUCT + TIMING. Stripe is in active launch mode with coordinated releases.",
         "supporting_signals": [
           "stripe-android repository actively maintained",
           "stripe-python repository actively maintained",
@@ -1794,12 +1376,11 @@
       }
     ],
     "executive_summary": {
-      "total_insights_generated": 7,
+      "total_insights_generated": 6,
       "categories_covered": [
         "TALENT",
         "PRODUCT",
-        "TIMING",
-        "MARKET"
+        "TIMING"
       ],
       "high_confidence_insights": [
         {
@@ -1812,15 +1393,15 @@
         },
         {
           "category": "PRODUCT",
-          "insight": "High product development velocity detected: 16 product signals, 16 high-confidence. Stripe is in aggressive build mode...."
+          "insight": "High product development velocity detected: 12 product signals, 12 high-confidence. Stripe is in aggressive build mode...."
         },
         {
           "category": "PRODUCT",
-          "insight": "Product roadmap focus areas: APIs, Developer Tools, Terminal, SDKs, Payment Processing. Primary investment in APIs...."
+          "insight": "Product roadmap focus areas: Developer Tools, Terminal, SDKs, APIs, Payment Processing. Primary investment in Developer Tools...."
         },
         {
           "category": "PRODUCT",
-          "insight": "Rapid release cadence: 10 version updates detected. Suggests strong engineering velocity and continuous deployment...."
+          "insight": "Rapid release cadence: 9 version updates detected. Suggests strong engineering velocity and continuous deployment...."
         }
       ],
       "key_recommendations": [
@@ -1830,7 +1411,7 @@
         "Product gaps to exploit: Areas NOT in their roadmap - Fraud Prevention, Analytics, Reporting. Consider building differentiated capabilities in these gaps.",
         "Match release velocity with quality. Emphasize stability and reliability as counter to Stripe's rapid iteration (which may introduce bugs)."
       ],
-      "strategic_summary": "Strategic picture: High product development activity (16 signals), market tailwinds present, organizational expansion (2 hiring signals). Recommend multi-dimensional GTM approach targeting identified gaps and vulnerabilities."
+      "strategic_summary": "Strategic picture: High product development activity (12 signals), organizational expansion (2 hiring signals). Recommend multi-dimensional GTM approach targeting identified gaps and vulnerabilities."
     }
   },
   "recommendations": {
@@ -1852,15 +1433,15 @@
       },
       {
         "category": "PRODUCT",
-        "insight": "High product development velocity detected: 16 product signals, 16 high-confidence. Stripe is in aggressive build mode...."
+        "insight": "High product development velocity detected: 12 product signals, 12 high-confidence. Stripe is in aggressive build mode...."
       },
       {
         "category": "PRODUCT",
-        "insight": "Product roadmap focus areas: APIs, Developer Tools, Terminal, SDKs, Payment Processing. Primary investment in APIs...."
+        "insight": "Product roadmap focus areas: Developer Tools, Terminal, SDKs, APIs, Payment Processing. Primary investment in Developer Tools...."
       },
       {
         "category": "PRODUCT",
-        "insight": "Rapid release cadence: 10 version updates detected. Suggests strong engineering velocity and continuous deployment...."
+        "insight": "Rapid release cadence: 9 version updates detected. Suggests strong engineering velocity and continuous deployment...."
       }
     ],
     "priority_actions": [
@@ -1893,18 +1474,12 @@
         "action": "Match release velocity with quality. Emphasize stability and reliability as counter to Stripe's rapid iteration (which may introduce bugs).",
         "urgency": "medium",
         "confidence": "high"
-      },
-      {
-        "category": "MARKET",
-        "action": "Capitalize on market tailwinds with aggressive marketing. Market conditions favor expansion and customer acquisition.",
-        "urgency": "medium",
-        "confidence": "high"
       }
     ]
   },
   "executive_summary_report": {
-    "text": "================================================================================\nEXECUTIVE SUMMARY\n================================================================================\n\nCOMPANY OVERVIEW: Stripe is a global payments infrastructure provider serving B2B and B2C businesses worldwide. As a market leader in payment processing, API-first financial services, and embedded finance, Stripe continues to expand its product portfolio and market reach.\n\nMARKET POSITION: Analysis of 20 market signals reveals Stripe maintains strong technical leadership with aggressive product development (16 product signals) and strategic workforce expansion (2 hiring signals). The company demonstrates continued innovation in developer tools, SDKs, and API infrastructure.\n\nSTRATEGIC DIRECTION: Strategic picture: High product development activity (16 signals), market tailwinds present, organizational expansion (2 hiring signals). Recommend multi-dimensional GTM approach targeting identified gaps and vulnerabilities.\n\n\n================================================================================\nMARKET INTELLIGENCE OVERVIEW\n================================================================================\n\nTotal Signals Collected: 20\nDate Range: 2025-09-21 to 2025-11-05\n\nSources:\n  - GitHub: 12 signals (60.0%)\n  - News: 6 signals (30.0%)\n  - LinkedIn: 2 signals (10.0%)\n\n\n================================================================================\nKEY FINDINGS\n================================================================================\n\n1. AGGRESSIVE PRODUCT DEVELOPMENT: Stripe demonstrates high development velocity with 16 product signals detected (16 high-confidence). High product development velocity detected: 16 product signals, 16 high-confidence. Stripe is in aggressive build mode....\n2. STRATEGIC WORKFORCE EXPANSION: Aggressive hiring detected: 100+ open positions across 1 signals. Indicates strong growth trajectory and strategic expan... (1 hiring-related signals)\n3. MARKET DYNAMICS: Market tailwinds identified: 1 positive market signals. Strong market momentum supporting growth....\n4. INTEGRATED STRATEGY: High interconnection: 11 of 20 signals (55%) span multiple GTM dimensions. Indicates complex strategic initiatives.... (11 multi-dimensional signals)\n5. MARKET TIMING: Detected 1 launch-related signals indicating active release cycles. Market window is currently OPEN for competitive anno...\n\n\n================================================================================\nGTM RECOMMENDATIONS\n================================================================================\n\n1. [PRODUCT] \n   Finding: High product development velocity detected: 16 product signals, 16 high-confidence.\n   Recommendation: Expect rapid feature releases. Prioritize parity on core features while identifying areas where Stripe is over-investing (potential gaps to exploit).\n   Expected Impact: Major differentiation opportunity, potential to capture underserved segment\n\n2. [PRODUCT] \n   Finding: Product roadmap focus areas: APIs, Developer Tools, Terminal, SDKs, Payment Processing.\n   Recommendation: Product gaps to exploit: Areas NOT in their roadmap - Fraud Prevention, Analytics, Reporting. Consider building differentiated capabilities in these g...\n   Expected Impact: Major differentiation opportunity, potential to capture underserved segment\n\n3. [PRODUCT] \n   Finding: Rapid release cadence: 10 version updates detected.\n   Recommendation: Match release velocity with quality. Emphasize stability and reliability as counter to Stripe's rapid iteration (which may introduce bugs).\n   Expected Impact: Major differentiation opportunity, potential to capture underserved segment\n\n4. [TALENT] \n   Finding: Aggressive hiring detected: 100+ open positions across 1 signals.\n   Recommendation: Strategic direction: Large-scale hiring suggests preparation for major initiatives. Monitor department-level hiring to identify strategic priorities (...\n   Expected Impact: Early signal of major strategic shift, 6-12 month competitive advantage\n\n5. [TALENT] \n   Finding: Organizational strength: ~12,538 employees.\n   Recommendation: Competitive advantage: Emphasize agility and speed vs. Stripe's large organization. Position as nimble alternative that can move faster and customize ...\n   Expected Impact: Early signal of major strategic shift, 6-12 month competitive advantage\n\n6. [MARKET] \n   Finding: Market tailwinds identified: 1 positive market signals.\n   Recommendation: Capitalize on market tailwinds with aggressive marketing. Market conditions favor expansion and customer acquisition.\n   Expected Impact: Significant market opportunity, potential for rapid growth\n\n\n================================================================================\nCOMPETITIVE POSITIONING\n================================================================================\n\nSTRIPE'S STRENGTHS (based on signals):\n  - Strong product development velocity (16 product signals)\n  - Large, well-resourced organization (12,000+ employees)\n  - Comprehensive developer ecosystem (3 SDK/API updates)\n  - Established market leader with strong brand recognition\n  - Extensive integration ecosystem and partner network\n\nSTRIPE'S VULNERABILITIES (gaps in strategy):\n  - Limited focus on fraud prevention capabilities\n  - Underdeveloped analytics and reporting tools\n  - Basic reporting functionality\n  - Large organization may suffer from slower decision-making\n\nOPPORTUNITIES FOR DIFFERENTIATION:\n  - Competitive advantage: Emphasize agility and speed vs. Stripe's large organizati...\n  - Expect rapid feature releases. Prioritize parity on core features while identify...\n  - Product gaps to exploit: Areas NOT in their roadmap - Fraud Prevention, Analytic...\n  - Match release velocity with quality. Emphasize stability and reliability as coun...\n\n\n================================================================================\nTIMELINE & URGENCY\n================================================================================\n\nURGENT MARKET SHIFTS:\n  - 1 product launch signals detected indicating active release cycle\n  - High interconnection: 11 of 20 signals (55%) span multiple GTM dimensions. Indicates complex strateg...\n  - Product launch cycle detected: 9 signals combine PRODUCT + TIMING. Stripe is in active launch mode w...\n\nRECOMMENDED ACTION TIMELINE:\n\nIMMEDIATE (0-30 days):\n  - [TALENT] Strategic direction: Large-scale hiring suggests preparation for major initiativ...\n  - [TALENT] Competitive advantage: Emphasize agility and speed vs. Stripe's large organizati...\n\nSHORT-TERM (30-90 days):\n  - Execute product differentiation strategy based on identified gaps\n  - Develop and deploy counter-positioning messaging\n  - Launch targeted campaigns for underserved segments\n\nMEDIUM-TERM (90-180 days):\n  - Monitor competitor hiring patterns for strategic direction signals\n  - Assess market response to initial positioning changes\n  - Refine ICP targeting based on early results\n\n================================================================================\nEND OF EXECUTIVE SUMMARY\n================================================================================",
-    "word_count": 769,
-    "generated_date": "2025-11-05T20:20:20.096154"
+    "text": "================================================================================\nEXECUTIVE SUMMARY\n================================================================================\n\nCOMPANY OVERVIEW: Stripe is a global payments infrastructure provider serving B2B and B2C businesses worldwide. As a market leader in payment processing, API-first financial services, and embedded finance, Stripe continues to expand its product portfolio and market reach.\n\nMARKET POSITION: Analysis of 15 market signals reveals Stripe maintains strong technical leadership with aggressive product development (12 product signals) and strategic workforce expansion (2 hiring signals). The company demonstrates continued innovation in developer tools, SDKs, and API infrastructure.\n\nSTRATEGIC DIRECTION: Strategic picture: High product development activity (12 signals), organizational expansion (2 hiring signals). Recommend multi-dimensional GTM approach targeting identified gaps and vulnerabilities.\n\n\n================================================================================\nMARKET INTELLIGENCE OVERVIEW\n================================================================================\n\nTotal Signals Collected: 15\nDate Range: 2025-10-06 to 2025-11-05\n\nSources:\n  - GitHub: 9 signals (60.0%)\n  - News: 4 signals (26.7%)\n  - LinkedIn: 2 signals (13.3%)\n\n\n================================================================================\nKEY FINDINGS\n================================================================================\n\n1. AGGRESSIVE PRODUCT DEVELOPMENT: Stripe demonstrates high development velocity with 12 product signals detected (12 high-confidence). High product development velocity detected: 12 product signals, 12 high-confidence. Stripe is in aggressive build mode....\n2. STRATEGIC WORKFORCE EXPANSION: Aggressive hiring detected: 100+ open positions across 1 signals. Indicates strong growth trajectory and strategic expan... (1 hiring-related signals)\n4. INTEGRATED STRATEGY: High interconnection: 10 of 15 signals (66%) span multiple GTM dimensions. Indicates complex strategic initiatives.... (10 multi-dimensional signals)\n5. MARKET TIMING: Detected 1 launch-related signals indicating active release cycles. Market window is currently OPEN for competitive anno...\n\n\n================================================================================\nGTM RECOMMENDATIONS\n================================================================================\n\n1. [PRODUCT] \n   Finding: High product development velocity detected: 12 product signals, 12 high-confidence.\n   Recommendation: Expect rapid feature releases. Prioritize parity on core features while identifying areas where Stripe is over-investing (potential gaps to exploit).\n   Expected Impact: Major differentiation opportunity, potential to capture underserved segment\n\n2. [PRODUCT] \n   Finding: Product roadmap focus areas: Developer Tools, Terminal, SDKs, APIs, Payment Processing.\n   Recommendation: Product gaps to exploit: Areas NOT in their roadmap - Fraud Prevention, Analytics, Reporting. Consider building differentiated capabilities in these g...\n   Expected Impact: Major differentiation opportunity, potential to capture underserved segment\n\n3. [PRODUCT] \n   Finding: Rapid release cadence: 9 version updates detected.\n   Recommendation: Match release velocity with quality. Emphasize stability and reliability as counter to Stripe's rapid iteration (which may introduce bugs).\n   Expected Impact: Major differentiation opportunity, potential to capture underserved segment\n\n4. [TALENT] \n   Finding: Aggressive hiring detected: 100+ open positions across 1 signals.\n   Recommendation: Strategic direction: Large-scale hiring suggests preparation for major initiatives. Monitor department-level hiring to identify strategic priorities (...\n   Expected Impact: Early signal of major strategic shift, 6-12 month competitive advantage\n\n5. [TALENT] \n   Finding: Organizational strength: ~12,538 employees.\n   Recommendation: Competitive advantage: Emphasize agility and speed vs. Stripe's large organization. Position as nimble alternative that can move faster and customize ...\n   Expected Impact: Early signal of major strategic shift, 6-12 month competitive advantage\n\n\n================================================================================\nCOMPETITIVE POSITIONING\n================================================================================\n\nSTRIPE'S STRENGTHS (based on signals):\n  - Strong product development velocity (12 product signals)\n  - Large, well-resourced organization (12,000+ employees)\n  - Comprehensive developer ecosystem (2 SDK/API updates)\n  - Established market leader with strong brand recognition\n  - Extensive integration ecosystem and partner network\n\nSTRIPE'S VULNERABILITIES (gaps in strategy):\n  - Limited focus on fraud prevention capabilities\n  - Underdeveloped analytics and reporting tools\n  - Basic reporting functionality\n  - Large organization may suffer from slower decision-making\n\nOPPORTUNITIES FOR DIFFERENTIATION:\n  - Competitive advantage: Emphasize agility and speed vs. Stripe's large organizati...\n  - Expect rapid feature releases. Prioritize parity on core features while identify...\n  - Product gaps to exploit: Areas NOT in their roadmap - Fraud Prevention, Analytic...\n  - Match release velocity with quality. Emphasize stability and reliability as coun...\n\n\n================================================================================\nTIMELINE & URGENCY\n================================================================================\n\nURGENT MARKET SHIFTS:\n  - 1 product launch signals detected indicating active release cycle\n  - High interconnection: 10 of 15 signals (66%) span multiple GTM dimensions. Indicates complex strateg...\n  - Product launch cycle detected: 8 signals combine PRODUCT + TIMING. Stripe is in active launch mode w...\n\nRECOMMENDED ACTION TIMELINE:\n\nIMMEDIATE (0-30 days):\n  - [TALENT] Strategic direction: Large-scale hiring suggests preparation for major initiativ...\n  - [TALENT] Competitive advantage: Emphasize agility and speed vs. Stripe's large organizati...\n\nSHORT-TERM (30-90 days):\n  - Execute product differentiation strategy based on identified gaps\n  - Develop and deploy counter-positioning messaging\n  - Launch targeted campaigns for underserved segments\n\nMEDIUM-TERM (90-180 days):\n  - Monitor competitor hiring patterns for strategic direction signals\n  - Assess market response to initial positioning changes\n  - Refine ICP targeting based on early results\n\n================================================================================\nEND OF EXECUTIVE SUMMARY\n================================================================================",
+    "word_count": 717,
+    "generated_date": "2025-11-06T21:38:36.020110"
   }
 }

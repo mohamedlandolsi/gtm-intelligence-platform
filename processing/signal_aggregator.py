@@ -44,6 +44,9 @@ class MarketSignalsAggregator:
         Returns:
             List of standardized, deduplicated signals sorted by date
         """
+        # Ensure max_signals is an integer
+        max_signals = int(max_signals)
+        
         logger.info("="*80)
         logger.info("Starting market signals aggregation")
         logger.info("="*80)

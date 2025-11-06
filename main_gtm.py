@@ -233,8 +233,8 @@ class GTMPipeline:
             # Count sources
             sources = set(s.get('source', 'Unknown') for s in signals)
             
-            # Aggregate signals
-            aggregated = aggregate_market_signals(signals)
+            # Aggregate signals - the function loads signals from files itself
+            aggregated = aggregate_market_signals()
             self.stats['aggregated_signals'] = len(aggregated)
             
             print(f"✓ Aggregated {len(aggregated)} unique signals from {len(sources)} sources")
